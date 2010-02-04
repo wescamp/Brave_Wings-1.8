@@ -1,0 +1,19 @@
+#textdomain wesnoth-Brave_Wings
+
+Informations:
+
+   portraits; Dultas\ angarthing.png
+              Gomatas\ maskeddwarf4.png
+              Gomthaas\ maskeddwarf3.png
+              from 'The Hammer of Thursagan'
+
+              Orofarnie\ rithrandil.png
+              from 'The Rise of Wesnoth'
+
+  unit images; Dwarvish Annalist, Dwarvish Loremaster, Bandit Chief, 
+               Bandit Fighter, Bandit Thunderer
+               from 'The Hammer of Thursagan'
+       
+
+  I Omit anything from the core folder in the default. 
+  And from 'Fate of a Princess' because of the same author (please, refer the information-file in it).
