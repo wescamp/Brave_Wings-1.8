@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-02-15 03:07+0100\n"
+"POT-Creation-Date: 2010-02-21 23:55+0100\n"
 "PO-Revision-Date: 2010-02-06 15:34+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -30,7 +30,7 @@ msgid ""
 "early release, so bugs possible and some scenarios require further "
 "balancing. The feed back will be great appreciation.\n"
 "\n"
-"Brave Wings, version 0.5.1\n"
+"Brave Wings, version 0.5.2\n"
 "Required Wesnoth version: 1.7.13 or higher"
 msgstr ""
 
@@ -1361,18 +1361,18 @@ msgid "This is useful only to a warrior that is highly skilled with spears."
 msgstr ""
 
 #. [effect]: type=blade
-#. [object]: id=hyper-halberd
+#. [object]: id=ark_halberd
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:584
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:614
 msgid "ark halberd"
 msgstr ""
 
-#. [object]: id=hyper-halberd
+#. [object]: id=ark_halberd
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:585
 msgid "This halberd chops up enemies well"
 msgstr ""
 
-#. [object]: id=hyper-halberd
+#. [object]: id=ark_halberd
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:602
 msgid "This is useful only to a warrior that is highly skilled with halberds."
 msgstr ""
