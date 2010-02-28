@@ -20,4 +20,4 @@ Informations:
                 needle.png by Madnessbane
        
 
-  Omitting anything from the core folder in the default. 
+  Omitting anything from the core folder in the default, and created by the author. 
