@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-02-24 17:28+0100\n"
+"POT-Creation-Date: 2010-03-02 23:55+0100\n"
 "PO-Revision-Date: 2010-02-06 15:34+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -29,7 +29,7 @@ msgid ""
 "early release, so bugs possible and some scenarios require further "
 "balancing. The feed back will be great appreciation.\n"
 "\n"
-"Brave Wings, version 0.5.3\n"
+"Brave Wings, version 0.5.4\n"
 "Required Wesnoth version: 1.7.13 or higher"
 msgstr ""
 
@@ -1164,7 +1164,7 @@ msgstr ""
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:183
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:633
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:606
 msgid "Go to hell!"
 msgstr ""
 
@@ -1487,12 +1487,12 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Virgil
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:210
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:214
 msgid "Tyngel... What kept you? And where is the Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:214
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:218
 msgid ""
 "Gwahahaha! Thunderthrow is right here, in the front of us. Our capable "
 "friends took it from the laboratory and brought it here. It took time, but "
@@ -1500,12 +1500,12 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:218
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:222
 msgid "Oh, no! Montas is in that cage."
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:222
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:226
 msgid ""
 "Western Union, prepare to die! But first, a demonstration. Gunners, aim for "
 "the Commander of the Western Union force. He has been a big problem for too "
@@ -1513,12 +1513,12 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:302
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:306
 msgid "Noooo, Commander Virgil!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:306
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:310
 msgid ""
 "We Drakes will take care of that powerful weapon, Tyngel, so you can "
 "concentrate on leading your troops."
@@ -1527,68 +1527,70 @@ msgstr ""
 #. [unit_type]: id=Thunderthrow, race=mechanical
 #. [unit]: type=Thunderthrow, id=Thunderthrow
 #: Brave_Wings/units/Thunderthrow.cfg:4
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:321
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:325
 msgid "Thunderthrow"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:359
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:363
 msgid "Move away from the Thunderthrow! I will blow it up!"
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:428
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:469
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:432
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:458
 msgid "Uh!... What happened? How did they do that? Assassins, be ready!"
 msgstr ""
 
 #. [unit]: type=Dwarvish Runemaster, id=Montas
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:510
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:483
 msgid "Montas"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:520
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:493
 msgid "Montas, are ye all right?"
 msgstr ""
 
 #. [message]: id=Montas
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:524
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:497
 msgid ""
 "Dultas! Good ye're here, brother. I'm all right, but where is the "
 "Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:536
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:509
 msgid ""
 "Drakes from Faith Island are on our side, and their leader blew it up, using "
 "yer bomb."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:548
-msgid "Drakes from Faith Island are on our side, and they broke it down."
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:521
+msgid ""
+"Drakes from Faith Island are on our side, and they will blow it up, using "
+"yer bomb."
 msgstr ""
 
 #. [message]: id=Montas
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:557
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:530
 msgid ""
 "Good. I should not have created that weapon. It was too destructive and far "
 "too dangerous."
 msgstr ""
 
 #. [unit]: type=Elvish Scout, id=Evandel
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:570
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:650
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:731
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:543
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:623
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:704
 msgid "Evandel"
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:578
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:658
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:739
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:551
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:631
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:712
 msgid ""
 "Sir! Report from the Eastern Union! The orcish Lord of Castelfranc has "
 "agreed to a peace treaty. We are not to attack or invade each other anymore. "
@@ -1596,15 +1598,15 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:582
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:662
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:743
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:555
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:635
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:716
 msgid ""
 "Really? That's good news, scout. How did the agreement happen so quickly?"
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:586
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:559
 msgid ""
 "Sir, Marshal Háwclyn of the Southern Greenwood went to Castelfranc as soon "
 "as we captured Grisbi. He convinced the orcish lord to sign an agreement. In "
@@ -1612,52 +1614,52 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:590
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:671
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:752
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:563
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:644
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:725
 msgid ""
 "Oooh, Háwclyn is such a persuasive negotiator. So he has saved us a battle? "
 "That's the second time in just a few years. He'll be a hero."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:594
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:675
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:756
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:567
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:648
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:729
 msgid "It seems we are able to go home, Kasii."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:598
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:679
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:760
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:571
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:652
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:733
 msgid "Yup! Wyngilla."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:602
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:683
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:764
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:575
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:656
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:737
 msgid ""
 "I appreciate the help, drakes. Now ye need to save yer home. Please take "
 "some gold as a sign of our appreciation."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:613
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:694
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:775
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:586
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:667
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:748
 msgid "Yay! Let's go back to the ocean!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:629
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:602
 msgid "Aaaagrh... No gold for me..."
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:667
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:748
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:640
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:721
 msgid ""
 "Sir, Marshal Háwclyn of the Southern Greenwood went to Castelfranc as soon "
 "as we captured Grisbi. He convinced the orcish lord to sign an agreement. In "
@@ -1666,12 +1668,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:710
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:683
 msgid "Aaaagrh... Why these drakes... Are not even local..."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Tomahawk.cfg:714
+#: Brave_Wings/scenarios/09_Tomahawk.cfg:687
 msgid "This is for Commander Virgil."
 msgstr ""
 
@@ -2398,13 +2400,13 @@ msgstr ""
 
 #. [attack]: type=impact
 #: Brave_Wings/units/Bw_Dwarvish_Loremaster.cfg:33
-#: Brave_Wings/units/Bw_Dwarvish_Annalist.cfg:38
+#: Brave_Wings/units/Bw_Dwarvish_Annalist.cfg:29
 msgid "morningstar"
 msgstr ""
 
 #. [attack]: type=impact
 #: Brave_Wings/units/Bw_Dwarvish_Loremaster.cfg:116
-#: Brave_Wings/units/Bw_Dwarvish_Annalist.cfg:115
+#: Brave_Wings/units/Bw_Dwarvish_Annalist.cfg:106
 msgid "bolas"
 msgstr ""
 
@@ -2842,28 +2844,18 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/utils/bw-animations.cfg:196
+#: Brave_Wings/utils/bw-animations.cfg:195
 msgid "Die! Die humans! The far north is for orcs forever!"
 msgstr ""
 
 #. [message]: id=Tyngel
 #. [message]: speaker=unit
-#: Brave_Wings/utils/bw-animations.cfg:271 Brave_Wings/utils/bw-utils.cfg:158
+#: Brave_Wings/utils/bw-animations.cfg:270 Brave_Wings/utils/bw-utils.cfg:158
 msgid "Aaaargh... I wanted to see human land at the far north..."
 msgstr ""
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:6
-msgid ""
-"Although a single player campaign, Brave Wings, is an independent drake-"
-"campaign, playing another campaign, Fate of a Princess, before playing Brave "
-"Wings makes it more interesting because some parts of story of this campaign "
-"are continued from Fate of a Princess.\n"
-"Anyway, thanks for playing Brave Wings."
-msgstr ""
-
-#. [part]
-#: Brave_Wings/utils/bw-intro.cfg:10
+#: Brave_Wings/utils/bw-intro.cfg:5
 msgid ""
 "A garrison force of humans occupied the city of Prestim at 237 YW, and the "
 "population of humans in the southern cities of the far north began to "
@@ -2875,7 +2867,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:14
+#: Brave_Wings/utils/bw-intro.cfg:9
 msgid ""
 "At that time, in the far north of Wesnoth, orcs often came south to attack "
 "the cities of Prestim and Dorest. But an alliance of humans and Greenwood "
@@ -2884,7 +2876,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:18
+#: Brave_Wings/utils/bw-intro.cfg:13
 msgid ""
 "These conflicts were of no importance to drakes and their lord, Eagi-Nyess, "
 "living on Faith Island. The island was north and west of Wesnoth, and well "
@@ -2895,7 +2887,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:22
+#: Brave_Wings/utils/bw-intro.cfg:17
 msgid ""
 "Drakes are loyal and honorable and trust each other absolutely. Unlike human "
 "society, treachery and cheating and double-dealing do not exist in drake "
@@ -2906,7 +2898,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:36
+#: Brave_Wings/utils/bw-intro.cfg:31
 msgid ""
 "Wyngilla, Kasii, and the others had found Montas's brother, Dultas, and told "
 "him their story. Since Montas did not live near the Misty Forest anymore, "
@@ -2916,19 +2908,19 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:39
+#: Brave_Wings/utils/bw-intro.cfg:35
 msgid ""
 "The alliance of humans and the Greenwood elves had been battling Orc clans "
 "since 237 YW. There were two groups in the alliance: The Eastern Union "
 "included Greenwood elves and humans from the cities of Prestim and Dorest. "
 "It swept the orcs out of the Greenwood, and then set out to re-capture the "
-"cities of Grisbi, Farzi, and Castelfranc, under the High Lord of Greenwood "
-"elves, Elvanadíon II. The smaller Western Union force was under the command "
-"of Virgil, the son of Dessen, the Elder Chief."
+"cities of Grisbi, Farzi, and Castelfranc, under Queen of Greenwood elves, "
+"Eämeral. The smaller Western Union force was under the command of Virgil, "
+"the son of Dessen, the Elder Chief."
 msgstr ""
 
 #. [part]
-#: Brave_Wings/utils/bw-intro.cfg:42
+#: Brave_Wings/utils/bw-intro.cfg:39
 msgid ""
 "The mission of the Western Union was to shield human territory from Orc "
 "forces trying to cross from the north bank of the Bark River. In effect, the "
