@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-03-05 20:49+0100\n"
+"POT-Creation-Date: 2010-03-15 19:56+0100\n"
 "PO-Revision-Date: 2010-02-06 15:34+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -28,7 +28,7 @@ msgid ""
 "early release, so bugs possible and some scenarios require further "
 "balancing. The feed back will be great appreciation.\n"
 "\n"
-"Brave Wings, version 0.6.0\n"
+"Brave Wings, version 0.6.1\n"
 "Required Wesnoth version: 1.7.13 or higher"
 msgstr ""
 
@@ -1163,7 +1163,7 @@ msgstr ""
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:183
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:612
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:618
 msgid "Go to hell!"
 msgstr ""
 
@@ -1459,7 +1459,7 @@ msgstr ""
 #. [scenario]: id=09_Thunderthrow
 #: Brave_Wings/units/Thunderthrow.cfg:4
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:4
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:329
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:330
 msgid "Thunderthrow"
 msgstr ""
 
@@ -1484,17 +1484,17 @@ msgstr ""
 #. [objective]: condition=win
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:105
 msgid ""
-"Move Wyngilla next to Thunderthrow in 6 turns, Rescue Montas, and Defeat all "
-"enemies leaders"
+"Move Wyngilla next to Thunderthrow, then leave there in 6 turns, Rescue "
+"Montas, and Defeat all enemies leaders"
 msgstr ""
 
 #. [message]: id=Virgil
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:218
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:219
 msgid "Tyngel... What kept you? And where is the Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:222
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:223
 msgid ""
 "Gwahahaha! Thunderthrow is right here, in the front of us. Our capable "
 "friends took it from the laboratory and brought it here. It took time, but "
@@ -1502,12 +1502,12 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:226
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:227
 msgid "Oh, no! Montas is in that cage."
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:230
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:231
 msgid ""
 "Western Union, prepare to die! But first, a demonstration. Gunners, aim for "
 "the Commander of the Western Union force. He has been a big problem for too "
@@ -1515,77 +1515,84 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:310
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:311
 msgid "Noooo, Commander Virgil!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:314
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:315
 msgid ""
 "We Drakes will take care of that powerful weapon, Tyngel, so you can "
 "concentrate on leading your troops."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:367
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:368
 msgid "Move away from the Thunderthrow! I will blow it up!"
 msgstr ""
 
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:372
+msgid ""
+"Wyngilla will blow up the Thunderthrow when he moves to any directions from "
+"the current hex that he is on."
+msgstr ""
+
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:436
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:462
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:442
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:468
 msgid "Uh!... What happened? How did they do that? Assassins, be ready!"
 msgstr ""
 
 #. [unit]: type=Dwarvish Runemaster, id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:487
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:493
 msgid "Montas"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:497
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:503
 msgid "Montas, are ye all right?"
 msgstr ""
 
 #. [message]: id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:501
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:507
 msgid ""
 "Dultas! Good ye're here, brother. I'm all right, but where is the "
 "Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:513
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:519
 msgid ""
 "Drakes from Faith Island are on our side, and their leader blew it up, using "
 "yer bomb."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:525
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:531
 msgid ""
 "Drakes from Faith Island are on our side, and they will blow it up, using "
 "yer bomb."
 msgstr ""
 
 #. [message]: id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:534
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:540
 msgid ""
 "Good. I should not have created that weapon. It was too destructive and far "
 "too dangerous."
 msgstr ""
 
 #. [unit]: type=Elvish Scout, id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:549
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:631
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:714
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:555
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:637
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:720
 msgid "Evandel"
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:557
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:639
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:722
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:563
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:645
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:728
 msgid ""
 "Sir! Report from the Eastern Union! The orcish Lord of Castelfranc has "
 "agreed to a peace treaty. We are not to attack or invade each other anymore. "
@@ -1593,15 +1600,15 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:561
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:643
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:726
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:567
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:649
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:732
 msgid ""
 "Really? That's good news, scout. How did the agreement happen so quickly?"
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:565
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:571
 msgid ""
 "Sir, Marshal Háwclyn of the Southern Greenwood went to Castelfranc as soon "
 "as we captured Grisbi. He convinced the orcish lord to sign an agreement. In "
@@ -1609,52 +1616,52 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:569
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:652
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:735
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:575
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:658
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:741
 msgid ""
 "Oooh, Háwclyn is such a persuasive negotiator. So he has saved us a battle? "
 "That's the second time in just a few years. He'll be a hero."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:573
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:656
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:739
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:579
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:662
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:745
 msgid "It seems we are able to go home, Kasii."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:577
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:660
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:743
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:583
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:666
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:749
 msgid "Yup! Wyngilla."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:581
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:664
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:747
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:587
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:670
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:753
 msgid ""
 "I appreciate the help, drakes. Now ye need to save yer home. Please take "
 "some gold as a sign of our appreciation."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:592
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:675
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:758
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:598
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:681
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:764
 msgid "Yay! Let's go back to the ocean!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:608
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:614
 msgid "Aaaagrh... No gold for me..."
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:648
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:731
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:654
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:737
 msgid ""
 "Sir, Marshal Háwclyn of the Southern Greenwood went to Castelfranc as soon "
 "as we captured Grisbi. He convinced the orcish lord to sign an agreement. In "
@@ -1663,13 +1670,23 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:691
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:697
 msgid "Aaaagrh... Why these drakes... Are not even local..."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:695
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:701
 msgid "This is for Commander Virgil."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:780
+msgid "Aaaargh... Dultas... take care..."
+msgstr ""
+
+#. [message]: id=Dultas
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:784
+msgid "Nooooo... Montas! We were supposed to drink more together!"
 msgstr ""
 
 #. [scenario]: id=10_Orcish_Newport
