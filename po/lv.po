@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-03-15 19:56+0100\n"
+"POT-Creation-Date: 2010-03-20 16:03+0100\n"
 "PO-Revision-Date: 2010-02-06 15:34+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -30,7 +30,7 @@ msgid ""
 "early release, so bugs possible and some scenarios require further "
 "balancing. The feed back will be great appreciation.\n"
 "\n"
-"Brave Wings, version 0.6.1\n"
+"Brave Wings, version 0.6.2\n"
 "Required Wesnoth version: 1.7.13 or higher"
 msgstr ""
 
@@ -101,6 +101,12 @@ msgstr ""
 
 #. [about]
 #: Brave_Wings/_main.cfg:71
+msgid ""
+"Scenario Music on Thunderthrow and Legend of a Dragon (The High Kings March)"
+msgstr ""
+
+#. [about]
+#: Brave_Wings/_main.cfg:77
 msgid "Naming Contributions"
 msgstr ""
 
@@ -808,6 +814,8 @@ msgstr ""
 #: Brave_Wings/scenarios/04_Landing.cfg:133
 #: Brave_Wings/scenarios/10_Orcish_Newport.cfg:112
 #: Brave_Wings/scenarios/06_Western_Union.cfg:104
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:456
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:512
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:394
 #: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:78
 msgid "Defeat all enemy leaders"
@@ -1165,7 +1173,7 @@ msgstr ""
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:183
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:618
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:677
 msgid "Go to hell!"
 msgstr ""
 
@@ -1541,60 +1549,66 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:442
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:468
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:441
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:497
 msgid "Uh!... What happened? How did they do that? Assassins, be ready!"
 msgstr ""
 
+#. [objective]: condition=win
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:466
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:522
+msgid "Rescue Montas and Defeat all enemy leaders"
+msgstr ""
+
 #. [unit]: type=Dwarvish Runemaster, id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:493
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:552
 msgid "Montas"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:503
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:562
 msgid "Montas, are ye all right?"
 msgstr ""
 
 #. [message]: id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:507
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:566
 msgid ""
 "Dultas! Good ye're here, brother. I'm all right, but where is the "
 "Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:519
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:578
 msgid ""
 "Drakes from Faith Island are on our side, and their leader blew it up, using "
 "yer bomb."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:531
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:590
 msgid ""
 "Drakes from Faith Island are on our side, and they will blow it up, using "
 "yer bomb."
 msgstr ""
 
 #. [message]: id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:540
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:599
 msgid ""
 "Good. I should not have created that weapon. It was too destructive and far "
 "too dangerous."
 msgstr ""
 
 #. [unit]: type=Elvish Scout, id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:555
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:637
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:720
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:614
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:696
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:779
 msgid "Evandel"
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:563
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:645
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:728
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:622
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:704
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:787
 msgid ""
 "Sir! Report from the Eastern Union! The orcish Lord of Castelfranc has "
 "agreed to a peace treaty. We are not to attack or invade each other anymore. "
@@ -1602,15 +1616,15 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:567
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:649
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:732
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:626
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:708
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:791
 msgid ""
 "Really? That's good news, scout. How did the agreement happen so quickly?"
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:571
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:630
 msgid ""
 "Sir, Marshal Háwclyn of the Southern Greenwood went to Castelfranc as soon "
 "as we captured Grisbi. He convinced the orcish lord to sign an agreement. In "
@@ -1618,52 +1632,52 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:575
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:658
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:741
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:634
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:717
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:800
 msgid ""
 "Oooh, Háwclyn is such a persuasive negotiator. So he has saved us a battle? "
 "That's the second time in just a few years. He'll be a hero."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:579
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:662
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:745
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:638
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:721
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:804
 msgid "It seems we are able to go home, Kasii."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:583
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:666
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:749
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:642
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:725
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:808
 msgid "Yup! Wyngilla."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:587
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:670
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:753
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:646
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:729
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:812
 msgid ""
 "I appreciate the help, drakes. Now ye need to save yer home. Please take "
 "some gold as a sign of our appreciation."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:598
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:681
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:764
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:657
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:740
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:823
 msgid "Yay! Let's go back to the ocean!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:614
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:673
 msgid "Aaaagrh... No gold for me..."
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:654
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:737
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:713
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:796
 msgid ""
 "Sir, Marshal Háwclyn of the Southern Greenwood went to Castelfranc as soon "
 "as we captured Grisbi. He convinced the orcish lord to sign an agreement. In "
@@ -1672,22 +1686,22 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:697
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:756
 msgid "Aaaagrh... Why these drakes... Are not even local..."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:701
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:760
 msgid "This is for Commander Virgil."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:780
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:839
 msgid "Aaaargh... Dultas... take care..."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:784
+#: Brave_Wings/scenarios/09_Thunderthrow.cfg:843
 msgid "Nooooo... Montas! We were supposed to drink more together!"
 msgstr ""
 
@@ -2366,7 +2380,6 @@ msgid "war blade"
 msgstr ""
 
 #. [attack]: type=fire
-#: Brave_Wings/units/Drake_Alctemist.cfg:210
 #: Brave_Wings/units/Drake_Hero.cfg:165
 #: Brave_Wings/units/Drake_Battler.cfg:129
 #: Brave_Wings/units/Bw_Blademaster.cfg:51 Brave_Wings/units/Bw_Inferno.cfg:54
@@ -2375,6 +2388,7 @@ msgstr ""
 #: Brave_Wings/units/Bw_Burner.cfg:50 Brave_Wings/units/Bw_Flameheart.cfg:43
 #: Brave_Wings/units/Drake_Brave.cfg:150 Brave_Wings/units/Bw_Fire.cfg:52
 #: Brave_Wings/units/Sword_Drake.cfg:128 Brave_Wings/units/Bw_Warrior.cfg:49
+#: Brave_Wings/units/Drake_Alchemist.cfg:210
 #: Brave_Wings/units/Drake_Lord.cfg:138 Brave_Wings/units/Bw_Fighter.cfg:47
 #: Brave_Wings/units/Great_Drake.cfg:168
 msgid "fire breath"
@@ -2644,12 +2658,12 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=Drake Alchemist, race=drake
-#: Brave_Wings/units/Drake_Alctemist.cfg:4
+#: Brave_Wings/units/Drake_Alchemist.cfg:4
 msgid "Drake Alchemist"
 msgstr ""
 
 #. [unit_type]: id=Drake Alchemist, race=drake
-#: Brave_Wings/units/Drake_Alctemist.cfg:22
+#: Brave_Wings/units/Drake_Alchemist.cfg:22
 msgid ""
 "A drake alchemist spends most of his time festooned with dozens of potion "
 "bottles, glowing rings and other magical gewgaws, with sparks flying "
@@ -2663,12 +2677,12 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: Brave_Wings/units/Drake_Alctemist.cfg:201
+#: Brave_Wings/units/Drake_Alchemist.cfg:201
 msgid "staff"
 msgstr ""
 
 #. [attack]: type=arcane
-#: Brave_Wings/units/Drake_Alctemist.cfg:219
+#: Brave_Wings/units/Drake_Alchemist.cfg:219
 msgid "crystal fire"
 msgstr ""
 
@@ -2680,9 +2694,9 @@ msgstr ""
 #. [unit_type]: id=Drake Battler, race=drake
 #: Brave_Wings/units/Drake_Battler.cfg:21
 msgid ""
-"Although the damage of hits for Drake Battler is less than one in Drake "
-"Blademaster, the number of hits is over. In addition, the golden armor "
-"protects it as well."
+"Although the Drake Battlers' strikes are less powerful than their "
+"Blademaster counterparts, they are more dexterous, and can strike more "
+"often. They are also better proteceted by their golden armour."
 msgstr ""
 
 #. [attack]: type=blade
@@ -2701,8 +2715,8 @@ msgstr ""
 #. [unit_type]: id=Drake Brave, race=drake
 #: Brave_Wings/units/Drake_Brave.cfg:20
 msgid ""
-"Drake Brave, Wyngilla, is an officer in his drake community. He can handle "
-"swords as well."
+"Wyngilla is a Brave - an officer in the community he comes from. He handles "
+"swords quite well."
 msgstr ""
 
 #. [unit_type]: id=Drake Hero, race=drake
@@ -2725,8 +2739,9 @@ msgstr ""
 #. [unit_type]: id=Drake Lord, race=drake
 #: Brave_Wings/units/Drake_Lord.cfg:27
 msgid ""
-"Drake Lord, Eagi-Nyess is the head of his drake community at Faith Island. "
-"Unlike the other drakes, he is able to handle swords as well."
+"Eagi-Nyess is a Drake Lord and the head of the Drake community in Faith "
+"Island. Unlike others of the Flameheart Caste, he eschews the use of "
+"warblades in favor of a sword."
 msgstr ""
 
 #. [unit_type]: id=Drake Outcast, race=undead
@@ -2755,7 +2770,9 @@ msgstr ""
 
 #. [unit_type]: id=Ghost Ship, race=mechanical
 #: Brave_Wings/units/Ghost_Ship.cfg:24
-msgid "Ghost Ship appears often on the ocean in undead direction."
+msgid ""
+"Ghost Ship are a rare sight, usually apearing in the vicinty of powerful "
+"undead."
 msgstr ""
 
 #. [hides]: id=bw_phantom
@@ -2799,8 +2816,9 @@ msgstr ""
 #. [unit_type]: id=Merman Outcast, race=undead
 #: Brave_Wings/units/Merman_Outcast.cfg:22
 msgid ""
-"Merman Outcast is appeared when the merman officer is killed and controlled "
-"by the undead lord."
+"A Merman Outcast is a special breed of soulless that are created when a "
+"Merman who was a distinguished persona in his life is killed and reanimated "
+"by a Necromancer."
 msgstr ""
 
 #. [unit_type]: id=Orcish Galleon, race=mechanical
@@ -2811,8 +2829,8 @@ msgstr ""
 #. [unit_type]: id=Orcish Galleon, race=mechanical
 #: Brave_Wings/units/Orcish_Galleon.cfg:18
 msgid ""
-"Orcish galleons are to transport any kinds of orcs and their cargos. The "
-"strength of them is almost the same as a pirates-ship."
+"Orcs use galleons, too. Game-wise, these are almost the same as Pirate "
+"Galleons."
 msgstr ""
 
 #. [unit_type]: id=Sword Drake, race=drake
@@ -2823,16 +2841,18 @@ msgstr ""
 #. [unit_type]: id=Sword Drake, race=drake
 #: Brave_Wings/units/Sword_Drake.cfg:20
 msgid ""
-"Although the damage of hits for Sword Drake is less than one in Drake "
-"Warrior, the number of hits is four each. In addition, the golden armor "
-"protects it as well."
+"Sword Drakes are Drakes from the Fighter Caste who take a different path "
+"from the Warriors. They eschew their Warblades, and take swords instead. "
+"Because the sword isn't as hard-hitting as a Warblade, they deal less "
+"damage, a tradeoff which is justified with the increased maneouverabillity "
+"swords have, which allow them to strike more often."
 msgstr ""
 
 #. [unit_type]: id=Thunderthrow, race=mechanical
 #: Brave_Wings/units/Thunderthrow.cfg:34
 msgid ""
-"Thunderthrow was invented by one of dwarves in the far north. The power is "
-"as much as a large bomb equips with a long range."
+"Thunderthrow was invented by a dwarf who lived in the far north. It's as "
+"powerful as a large bomb, and it boasts a long range."
 msgstr ""
 
 #. [unit_type]: id=Tomahawk, race=mechanical
@@ -2864,13 +2884,13 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/utils/bw-animations.cfg:195
+#: Brave_Wings/utils/bw-animations.cfg:198
 msgid "Die! Die humans! The far north is for orcs forever!"
 msgstr ""
 
 #. [message]: id=Tyngel
 #. [message]: speaker=unit
-#: Brave_Wings/utils/bw-animations.cfg:270 Brave_Wings/utils/bw-utils.cfg:158
+#: Brave_Wings/utils/bw-animations.cfg:273 Brave_Wings/utils/bw-utils.cfg:158
 msgid "Aaaargh... I wanted to see human land at the far north..."
 msgstr ""
 
