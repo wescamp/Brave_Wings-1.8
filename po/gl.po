@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2010-04-19 18:05+0200\n"
+"POT-Creation-Date: 2010-05-11 00:30+0200\n"
 "PO-Revision-Date: 2010-02-06 15:34+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -24,11 +24,12 @@ msgid ""
 "seriously. \n"
 "Brave drakes flew away to save their home.\n"
 "\n"
-"This is playable all scenarios (12 playable and an epilogue), but still an "
-"early release, so bugs possible and some scenarios require further "
-"balancing. The feed back will be great appreciation.\n"
+"This is a Drake Campaign totaling 14 scenarios, including an Epilogue, and "
+"playable all, but still an early release, so bugs possible and some "
+"scenarios require further balancing. The feed back will be great "
+"appreciation.\n"
 "\n"
-"Brave Wings, version 0.7.0\n"
+"Brave Wings, version 0.7.1\n"
 "Required Wesnoth version: 1.8.0 or higher"
 msgstr ""
 
@@ -44,16 +45,6 @@ msgstr ""
 
 #. [campaign]: id=Brave_Wings
 #: Brave_Wings/_main.cfg:27
-msgid "Large lizard"
-msgstr ""
-
-#. [campaign]: id=Brave_Wings
-#: Brave_Wings/_main.cfg:27
-msgid "Dragon"
-msgstr ""
-
-#. [campaign]: id=Brave_Wings
-#: Brave_Wings/_main.cfg:27
 msgid "(normal)"
 msgstr ""
 
@@ -65,6 +56,16 @@ msgstr ""
 #. [campaign]: id=Brave_Wings
 #: Brave_Wings/_main.cfg:27
 msgid "(easy)"
+msgstr ""
+
+#. [campaign]: id=Brave_Wings
+#: Brave_Wings/_main.cfg:27
+msgid "Large lizard"
+msgstr ""
+
+#. [campaign]: id=Brave_Wings
+#: Brave_Wings/_main.cfg:27
+msgid "Dragon"
 msgstr ""
 
 #. [about]
@@ -788,11 +789,13 @@ msgstr ""
 
 #. [side]: type=Troll Warrior, id=Zuug
 #: Brave_Wings/scenarios/04_Landing.cfg:62
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:127
 msgid "Zuug"
 msgstr ""
 
 #. [side]: type=Troll Warrior, id=Zuug
 #: Brave_Wings/scenarios/04_Landing.cfg:64
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:128
 msgid "Trolls"
 msgstr ""
 
@@ -1140,12 +1143,14 @@ msgstr ""
 #. [side]: type=Dwarvish Berserker, id=Pelalis
 #. [scenario]: id=07_Dwarvish_Bandits
 #. [side]: type=Dwarvish Bandit Chief, id=Gomthaas
+#. [side]: type=Dwarvish Berserker, id=Narril
 #. [side]: type=Dwarvish Bandit Chief, id=Gomatas
 #. [side]: type=Dwarvish Berserker, id=Nardrol
 #. [side]
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:4
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:46
 #: Brave_Wings/scenarios/09_Thunderthrow.cfg:87
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:33
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:38
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:62
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:81
@@ -1226,6 +1231,7 @@ msgstr ""
 
 #. [message]: id=Wyngilla
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:269
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:159
 msgid "....."
 msgstr ""
 
@@ -1489,6 +1495,200 @@ msgstr ""
 #. [message]: id=Wyngilla
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:963
 msgid "A good victory, everyone! Now we must go north... quickly."
+msgstr ""
+
+#. [scenario]: id=08b_Bandit's_Connection
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:4
+msgid "Bandit's Connection"
+msgstr ""
+
+#. [part]
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:9
+msgid ""
+"As soon as Drakes and their companies defeated the Dwarvish Bandit leader, "
+"they kept moving to north in the cave to rescue Montas and to take back the "
+"powerful weapon, Thunderthrow. However, the cave seemed to extend to the "
+"north almost forever, and they were not able to find them easily."
+msgstr ""
+
+#. [side]: type=Dwarvish Berserker, id=Narril
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:36
+msgid "Narril"
+msgstr ""
+
+#. [unit]: type=Dwarvish Berserker, id=Pelthaas
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:57
+msgid "Pelthaas"
+msgstr ""
+
+#. [side]: type=Direwolf Rider, id=Erulo
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:71
+msgid "Erulo"
+msgstr ""
+
+#. [side]: type=Direwolf Rider, id=Erulo
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:72
+msgid "Goblins"
+msgstr ""
+
+#. [side]: type=Bw Hydra, id=Orou
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:93
+msgid "Orou"
+msgstr ""
+
+#. [side]: type=Bw Hydra, id=Orou
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:94
+msgid "Serpents"
+msgstr ""
+
+#. [message]: id=Dultas
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:151
+msgid "I don't believe those bandits have developed caves this much."
+msgstr ""
+
+#. [message]: id=Tyngel
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:155
+msgid ""
+"We have never imagined Dwarvish Bandits had planed to steal Thunderthrow "
+"from the inside of the laboratory. It still seems to continue toward north."
+msgstr ""
+
+#. [objective]: condition=win
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:181
+msgid "Move Wyngilla or Dultas to the exit at north west"
+msgstr ""
+
+#. [message]: id=Dultas
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:236
+msgid ""
+"Their another treasure! I knew it was somewhere in the cave, and I am sure "
+"they don't need it anymore."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:240
+msgid "You gain a bonus of 200 golds!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:258
+msgid "Gwaaarh..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:265
+msgid "You gain an extra bonus of 200 gold!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:276
+msgid "Uuuh... I should have put the armor on..."
+msgstr ""
+
+#. [message]: id=Dultas
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:292
+msgid ""
+"Oh! that is the armor my brother made! I did not realize they also stole "
+"it. \n"
+"Drakes, why don't one of ya put that on. We have enough armors ourselves, "
+"and the material of the armor is very special. It increases pretty good and "
+"protects ya as well. So even your size, it still should work."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:306
+msgid "Even you can defeat us, it is too late, ha...ha..."
+msgstr ""
+
+#. [message]: id=Dultas
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:310
+msgid "Whatever you say, you cannot see what is going to happen anymore."
+msgstr ""
+
+#. [message]: id=Tyngel
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:314
+msgid "Dultas, let's move! The tunnel still continues to the north."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:340
+msgid "This magical armor allows an unit a good protection."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:345
+msgid "Should I take this armor?"
+msgstr ""
+
+#. [option]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:347
+msgid "Yes!"
+msgstr ""
+
+#. [object]: id=battle_jacket
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:355
+msgid "battle jacket"
+msgstr ""
+
+#. [object]: id=battle_jacket
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:356
+msgid "Battle Jacket gives a taker the resistance +20 up."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:373
+msgid "Amazing! It's light and fits even on me."
+msgstr ""
+
+#. [option]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:391
+msgid "No!"
+msgstr ""
+
+#. [message]: id=Narril
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:441
+msgid ""
+"Who are you guys? Drakes? This is not a places you are supposed be. Get out "
+"the cave! Or you came here to be eaten by Serpents?"
+msgstr ""
+
+#. [message]: id=Tyngel
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:445
+msgid ""
+"Bandit! If you want to be alive, tell us where Montas and Thunderthrow are!"
+msgstr ""
+
+#. [message]: id=Narril
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:449
+msgid ""
+"Ho-hoo, Western Union. I can tell the crazy weapon passed through here "
+"sometime ago. And it may be ready by now, ha ha ha. But I don't know how the "
+"old maniac now"
+msgstr ""
+
+#. [message]: id=Dultas
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:453
+msgid "Ummm... I don't think this guy is in cooperation to us."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:531
+msgid "Look! there is Goblin's keep. Why they are here in the cave?"
+msgstr ""
+
+#. [message]: id=Kasii
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:535
+msgid "Hmmm... That's not a good sign."
+msgstr ""
+
+#. [message]: id=Wyngilla
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:539
+msgid "It seems we had better move as quickly as possible."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:568
+msgid "Everyone, move this way quickly!"
 msgstr ""
 
 #. [unit_type]: id=Thunderthrow, race=mechanical
@@ -2222,8 +2422,9 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:652
 msgid ""
-"At that moment, parts of Wyngilla's DNA switched on, and his form changed. "
-"Though different, he was still a son of justice, and his heart remained true."
+"At that moment, parts of Wyngilla's heritage of DNA suddenly switched on by "
+"the terrible anger and sadness, and his form changed. Though different, he "
+"was still a son of justice, and his heart remained true."
 msgstr ""
 
 #. [objective]: condition=win
@@ -2833,6 +3034,31 @@ msgstr ""
 msgid ""
 "Great Drake, Wyngilla, is an officer in his drake community. He can handle "
 "swords as well."
+msgstr ""
+
+#. [unit_type]: id=Bw Hydra, race=monster
+#: Brave_Wings/units/Hydra.cfg:4
+msgid "Hydra"
+msgstr ""
+
+#. [unit_type]: id=Bw Hydra, race=monster
+#: Brave_Wings/units/Hydra.cfg:21
+msgid ""
+"The hydra is an amazing monster rarely seen by land-dwellers. These "
+"creatures lurk in the depths of the oceans, in lochs and underground rivers, "
+"and they are often responsible for the mysterious disappearances of lone "
+"orcs, dwarves and even the occasional careless troll. Some live in swamps "
+"and marshes, others in the icy mountains, while others dwell wherever there "
+"are dark shadows and deep water. The only areas certain to be free from "
+"these creatures are deserts and other dry wastelands. The merfolk and nagas "
+"know more about this creature than land-dwellers do, and many of their "
+"magical rituals involve an offering to the hydra, just as other races seek "
+"to ward off evil land-borne spirits."
+msgstr ""
+
+#. [attack]: type=pierce
+#: Brave_Wings/units/Hydra.cfg:29
+msgid "fangs"
 msgstr ""
 
 #. [unit_type]: id=Merman Outcast, race=undead
