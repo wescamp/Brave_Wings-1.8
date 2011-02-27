@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-01-08 00:55+0100\n"
+"POT-Creation-Date: 2011-02-27 17:34+0100\n"
 "PO-Revision-Date: 2010-04-19 18:05+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -26,7 +26,7 @@ msgid ""
 "shake them from their time of peace and force them to fly away from their "
 "home. \n"
 "\n"
-"This is a Drake Campaign with 14 scenarios, including an epilogue. All of "
+"This is a Drake Campaign with 15 scenarios, including an epilogue. All of "
 "the scenarios are playable, but this is still in the early stages, so there "
 "may be bugs or balancing issues. Any feedback on the campaign would be "
 "appreciated.\n"
@@ -140,188 +140,208 @@ msgid "Drakes"
 msgstr ""
 
 #. [side]: type=Drake Lord, id=Eagi-Nyess
-#. [unit]: type=Drake Outcast, id=Eagi-Nyess_2
-#: Brave_Wings/utils/bw-utils.cfg:12
+#. [unit]: type=Drake Outcast, id=Eagi-Nyess
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:26
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:229
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:235
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:35
 msgid "Eagi-Nyess"
 msgstr ""
 
+#. [unit]: type=Elder Wose, id=Orofarnie
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:39
+msgid "Orofarnië"
+msgstr ""
+
+#. [regenerate]: id=recovery
+#: Brave_Wings/units/Monster.cfg:76
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:53
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:912
+msgid "recovery"
+msgstr ""
+
+#. [regenerate]: id=recovery
+#: Brave_Wings/units/Monster.cfg:77
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:54
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:913
+msgid "female^recovery"
+msgstr ""
+
+#. [regenerate]: id=recovery
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:56
+msgid ""
+"Recovery:\n"
+"                    The unit will heal itself 4 HP per turn. If it is "
+"poisoned, it will remove the poison instead of healing."
+msgstr ""
+
+#. [side]: type=Naga Myrmidon, id=Grissileii
 #. [side]: type=Naga Warrior, id=Xopkne
 #. [side]: type=Naga Myrmidon, id=Oxpeii
-#. [side]: type=Naga Myrmidon, id=Grissileii
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:73
+#: Brave_Wings/scenarios/15_Epilogue.cfg:64
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:100
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:37
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:64
 msgid "Nagas"
 msgstr ""
 
 #. [side]: type=Naga Warrior, id=Xopkne
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:76
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:103
 msgid "Xopkne"
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
 #. [message]: speaker=unit
-#. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:125
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:300
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:252
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:152
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:314
 msgid "RooooAAAAARRRRRR!!!"
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:145
-msgid "Hoho! The flame of braves always pump up my brave..."
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:172
+msgid "Hoho! The flame of braves always pumps up my brave..."
 msgstr ""
 
 #. [message]: id=Orofarnie
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:149
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:176
 msgid "..."
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:153
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:180
 msgid "Um? Orofarnië, what is happening to you? Are you feeling all right?"
 msgstr ""
 
 #. [message]: id=Orofarnie
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:157
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:184
 msgid "Hmmm... Cold! Something is coming."
 msgstr ""
 
 #. [message]: id=Xopkne
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:170
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:197
 msgid "Haha! We will take over here, today!"
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:175
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:202
 msgid ""
 "You Nagas again? I told you not to come here! \n"
 "My braves, be ready!"
 msgstr ""
 
 #. [message]: id=Xopkne
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:181
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:208
 msgid "I am different from the most of us. Watch!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:202
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:426
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:466
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:229
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:425
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:436
 msgid "Defeat the enemy leader"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:206
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:128
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:504
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:759
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:195
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:478
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:233
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:128
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:513
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:768
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:176
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:448
 msgid "Death of Eagi-Nyess"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:210
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:132
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:508
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:763
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:199
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:482
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:237
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:132
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:517
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:772
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:180
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:452
 msgid "Death of Orofarnië"
 msgstr ""
 
 #. [objective]: condition=lose
 #: Brave_Wings/utils/bw-utils.cfg:34 Brave_Wings/utils/bw-utils.cfg:57
 #: Brave_Wings/utils/bw-utils.cfg:83
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:214
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:208
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:104
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:136
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:512
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:767
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:203
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:486
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:241
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:111
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:201
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:136
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:521
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:776
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:184
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:456
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:208
 msgid "Turns run out"
 msgstr ""
 
-#. [unit]: type=Elder Wose Bw, id=Orofarnie
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:222
-msgid "Orofarnië"
-msgstr ""
-
 #. [unit]: type=Drake Flare Bw, id=Kruggen
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:235
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:249
 msgid "Kruggen"
 msgstr ""
 
 #. [unit]: type=Drake Glider Bw, id=Grelnit
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:243
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:257
 msgid "Grelnit"
 msgstr ""
 
 #. [unit]: type=Drake Glider Bw, id=Ashijt
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:251
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:265
 msgid "Ashijt"
 msgstr ""
 
 #. [unit]: type=Drake Glider Bw, id=Gretz
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:259
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:273
 msgid "Gretz"
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:328
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:342
 msgid ""
 "Do not even think about coming here anymore! You have lost every time. Have "
 "you ever defeated us?"
 msgstr ""
 
 #. [message]: id=Xopkne
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:332
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:346
 msgid ""
 "Well, never yet... but it will happen today because we have an ally with "
 "us... haha..."
 msgstr ""
 
 #. [unit]: type=Sea Serpent, id=Nyul
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:346
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:360
 msgid "Nyul"
 msgstr ""
 
 #. [message]: id=Nyul
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:354
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:368
 msgid "... Naga... friend..."
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:358
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:372
 msgid "No matter! My brave drakes will defeat you anyway."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:372
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:428
 msgid "Aaaack... This should not be happening!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:385
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:1034
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:519
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:441
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1094
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:550
 msgid "Aaaack... I am not going to talk to birds anymore."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:398
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:454
 msgid "Aaaack... We lost again..."
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/01_Faith_Island.cfg:402
+#: Brave_Wings/scenarios/01_Faith_Island.cfg:458
 msgid "Yes, as I told you."
 msgstr ""
 
@@ -341,15 +361,17 @@ msgstr ""
 #. [side]: type=Skeletal Dragon, id=Kragash Varg
 #. [side]: type=Death Knight, id=Vam
 #. [side]: type=Merman Outcast, id=Neptus
-#. [side]: type=Lich, id=Yomi
 #. [side]: type=Spectre, id=Bam
 #. [side]: type=Merman Outcast, id=Ikateus
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:39
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:71
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:94
+#. [side]: type=Lich, id=Yomi
+#. [side]
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:39
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:71
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:94
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:40
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:61
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:70
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:40
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:61
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:180
 msgid "Undead"
 msgstr ""
 
@@ -401,31 +423,31 @@ msgid "Hahahaha,… HUSH!…"
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:191
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:172
 msgid "Defeat enemy leader"
 msgstr ""
 
 #. [unit]: type=Drake Glider Bw
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:218
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:199
 msgid "Demla"
 msgstr ""
 
 #. [message]: id=Yomi
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:261
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:242
 msgid ""
 "Lizards, you have no idea how much power I have. It is time to show you just "
 "how weak you are... hahahaha... Haaaah!"
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:316
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:297
 msgid ""
 "Uuuh, what did you do...? We'll never surrender, even if this strange magic "
 "completely destroys us... uuuh."
 msgstr ""
 
 #. [message]: id=Yomi
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:321
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:302
 msgid ""
 "Never surrender? How can you resist? I cannot control your spirits, but what "
 "can you do with those bodies? \n"
@@ -433,68 +455,71 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:327
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:308
 msgid "Ugg! This is awful! I cannot even recruit my men."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:331
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:312
 msgid ""
 "Moments later, a group of Faith Island's bravest drakes, led by Wyngilla, "
 "arrived home from another mission."
 msgstr ""
 
 #. [unit]: type=Drake Brave, id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:338
+#. [modify_side]: type=Drake Brave, id=Wyngilla
+#: Brave_Wings/utils/bw-utils.cfg:12
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:319
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:429
 msgid "Wyngilla"
 msgstr ""
 
 #. [unit]: type=Drake Alchemist, id=Kasii
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:358
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:339
 msgid "Kasii"
 msgstr ""
 
 #. [unit]: type=Drake Fighter Bw, id=Anguiron
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:374
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:355
 msgid "Anguiron"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:402
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:383
 msgid "Sir! we just arrived back... What? What! What is happening here?"
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:406
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:387
 msgid ""
 "Wyngilla! Kasii! It's good you're home. We were attacked by these... "
 "things... and they have used magic to make us shrivel up like this."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:410
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:391
 msgid "Not to worry, Sir! We will take care of them."
 msgstr ""
 
 #. [message]: id=Yomi
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:414
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:395
 msgid ""
 "Hmmm, still some lizards left. This time, I'll take their spirits, too... "
 "Haaack!"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:418
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:399
 msgid "Undead! Don't look at him, everyone! It is one of their worst tricks!"
 msgstr ""
 
 #. [message]: id=Yomi
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:428
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:409
 msgid "Oh!... How do you know that? Lizards shouldn't know that."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:432
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:413
 msgid ""
 "Lizards? Brave drake warriors have battled hundreds of times, and have "
 "gained valuable experience each time. Prepare to be vanquished!"
@@ -503,113 +528,115 @@ msgstr ""
 #. [objective]: condition=lose
 #: Brave_Wings/utils/bw-utils.cfg:22 Brave_Wings/utils/bw-utils.cfg:41
 #: Brave_Wings/utils/bw-utils.cfg:63
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:192
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:96
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:116
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:492
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:751
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:470
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:103
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:185
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:116
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:501
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:760
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:440
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:192
 msgid "Death of Wyngilla"
 msgstr ""
 
 #. [objective]: condition=lose
 #: Brave_Wings/utils/bw-utils.cfg:26 Brave_Wings/utils/bw-utils.cfg:45
 #: Brave_Wings/utils/bw-utils.cfg:67
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:196
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:100
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:120
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:496
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:755
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:474
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:107
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:189
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:120
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:505
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:764
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:444
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:196
 msgid "Death of Kasii"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:506
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:537
 msgid "Aaaack... This is the end of our island."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:532
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:563
 msgid "Aaaack... I don't believe we lost against lizards,  My Lord..."
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:541
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:572
 msgid "Your Lord? Who is that? ... uuuh..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:545
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:576
 msgid "Are you okay, Sir?"
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:549
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:580
 msgid "No, not really. I don't feel like I am alive. Kasii!, can you heal us?"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:553
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:584
 msgid ""
 "I am afraid not, Sir. But I have heard that dwarves, who live far in-land, "
 "can create a holy water potion that might put everyone back to normal."
 msgstr ""
 
 #. [message]: id=Orofarnie
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:557
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:588
 msgid ""
 "Inland is danger. Orcs, trolls, bandits, many different kinds of enemies "
 "exist there. Birds always say so."
 msgstr ""
 
 #. [message]: id=Eagi=Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:561
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:592
 msgid ""
 "Orofarnië is right. I cannot send our people into such danger. Wyngilla, you "
 "should take care of the island. I think I am wasting away..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:565
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:596
 msgid ""
 "But I'm not afraid of danger, Sir! If such a potion exists, I pledge to find "
 "it and bring it back to heal you and everyone!"
 msgstr ""
 
 #. [message]: id=Eagi-Nyess
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:569
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:600
 msgid ""
 "You are brave, Wyngilla, but please be cautious. Many hope that you will one "
 "day become the leader of our island."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:574
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:605
 msgid ""
 "Thank you, Sir! We will take care. \n"
 "Kasii! can you come with me? I need your knowledge to find the potion."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:578
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:609
 msgid "Of course. You can't face such danger alone."
 msgstr ""
 
 #. [message]: id=Anguiron
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:582
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:613
 msgid "Please let me come along too, Wyngilla."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:586
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:617
 msgid ""
 "All right! We leave immediately. And other strong fighters will remain here, "
 "to guard all of you, Sir."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:600
+#: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:661
 msgid "We have taken too much time. It is over."
 msgstr ""
 
@@ -632,145 +659,150 @@ msgstr ""
 msgid "Oxpeii"
 msgstr ""
 
+#. [side]
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:56
+msgid "Squids"
+msgstr ""
+
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:55
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:62
 msgid ""
 "This is Naga territory, but we have to pass through here to reach the land."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:59
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:66
 msgid ""
 "Yes, there is no way to avoid it. I hope their guards don't discover us."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:63
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:70
 msgid "...help..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:67
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:74
 msgid "What? Did you hear something, Kasii?"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:71
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:78
 msgid "I don't think so. Perhaps it was just the wind and the waves."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:75
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:82
 msgid "...help...somebody help me..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:79
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:86
 msgid "Now, I am sure. We cannot ignore someone that needs our help."
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:92
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:99
 msgid "Rescue mermaid"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:261
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:262
 msgid "Storm Orb, a Drake that swallows it gets a new ranged attack."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:266
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:267
 msgid "May I have this magical weapon?"
 msgstr ""
 
 #. [option]: speaker=unit
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:268
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:171
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:269
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:167
 msgid "Yes."
 msgstr ""
 
 #. [effect]: type=fire
 #. [object]: id=storm_orb
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:276
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:311
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:277
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:312
 msgid "storm orb"
 msgstr ""
 
 #. [object]: id=storm_orb
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:277
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:278
 msgid ""
 "A Drake that swallows this magic ball will be able to shoot Lightning "
 "attacks at enemies."
 msgstr ""
 
 #. [object]: id=storm_orb
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:287
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:288
 msgid "Only a Drake can swallow this. You will lose the chance to take it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:301
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:302
 msgid "...munch...glub..."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:305
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:306
 msgid "Ooo! It is Storm Orb! What a marvel! It is a Naga legend."
 msgstr ""
 
 #. [option]: speaker=unit
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:355
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:222
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:356
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:218
 msgid "No."
 msgstr ""
 
 #. [unit]: type=Mermaid Initiate, id=Melphine
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:381
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:382
 msgid "Mélphine"
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:399
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:398
 msgid "Thank you, friendly Drakes! I was almost eaten by them."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:409
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:446
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:408
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:445
 msgid ""
 "We are honored to help. Now, you should go back to your home. It is too "
 "dangerous here."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:413
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:450
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:412
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:449
 msgid ""
 "No... You saved my life, so I would like to do something for you. You won't "
 "eat me, will you?"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:417
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:454
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:416
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:453
 msgid "No, we don't eat mermaids."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:421
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:420
 msgid "You are welcome to join us, but please stay close to me."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:458
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:457
 msgid ""
 "You are welcome to join us, but please stay close to me. This victory will "
 "keep Nagas away from Faith Island, at least for a while."
 msgstr ""
 
 #. [message]: id=Oxpeii
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:508
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:505
 msgid ""
 "Drakes? Why are you here? You have enough land already. Hmmm... but you do "
 "save me a long journey to destroy you."
@@ -778,16 +810,16 @@ msgstr ""
 
 #. [message]: speaker=unit
 #. [message]: id=unit
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:602
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:188
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:213
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:980
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:565
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:603
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:184
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:209
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:561
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:973
 msgid "Aaaargh..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/03_Naga_Land.cfg:612
+#: Brave_Wings/scenarios/03_Naga_Land.cfg:613
 msgid ""
 "This victory will keep Nagas away from Faith Island, at least for a while."
 msgstr ""
@@ -820,13 +852,13 @@ msgstr ""
 
 #. [side]: type=Troll Warrior, id=Zuug
 #: Brave_Wings/scenarios/04_Landing.cfg:86
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:139
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:139
 msgid "Zuug"
 msgstr ""
 
 #. [side]: type=Troll Warrior, id=Zuug
 #: Brave_Wings/scenarios/04_Landing.cfg:88
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:140
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:140
 msgid "Trolls"
 msgstr ""
 
@@ -871,59 +903,59 @@ msgstr ""
 
 #. [objective]: condition=win
 #: Brave_Wings/scenarios/04_Landing.cfg:196
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:188
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:490
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:546
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:739
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:181
 #: Brave_Wings/scenarios/06_Western_Union.cfg:134
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:458
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:514
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:707
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:403
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:79
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:79
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:396
 msgid "Defeat all enemy leaders"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/04_Landing.cfg:269
+#: Brave_Wings/scenarios/04_Landing.cfg:261
 msgid "Aaaagrh… Finally… I am…"
 msgstr ""
 
 #. [message]: id=Naxiszy
-#: Brave_Wings/scenarios/04_Landing.cfg:273
+#: Brave_Wings/scenarios/04_Landing.cfg:265
 msgid "Noooo… I ssstill need you…"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/04_Landing.cfg:283
+#: Brave_Wings/scenarios/04_Landing.cfg:275
 msgid "Gaaargh..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/04_Landing.cfg:293
+#: Brave_Wings/scenarios/04_Landing.cfg:285
 msgid "Onward, drakes! One more, on the other side of the river!"
 msgstr ""
 
 #. [message]: id=Naxiszy
-#: Brave_Wings/scenarios/04_Landing.cfg:306
+#: Brave_Wings/scenarios/04_Landing.cfg:298
 msgid ""
 "Ttthanksss, big relatives. Trolls come here sometimes for land. Why you come "
 "here?"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/04_Landing.cfg:310
+#: Brave_Wings/scenarios/04_Landing.cfg:302
 msgid ""
 "Well, it is a long story, but we are searching for a rune dwarf, named "
 "Montas. Have you heard of him?"
 msgstr ""
 
 #. [message]: id=Naxiszy
-#: Brave_Wings/scenarios/04_Landing.cfg:314
+#: Brave_Wings/scenarios/04_Landing.cfg:306
 msgid ""
 "Ah... yessss... I have heard that name. He is probably east of here, south "
 "of the Misty Forest. Would you like some of my braves to guide you?"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/04_Landing.cfg:318
+#: Brave_Wings/scenarios/04_Landing.cfg:310
 msgid ""
 "We appreciate your offer, but no thanks. You will need those braves when "
 "Trolls come again. Drakes! Let's go further east!"
@@ -968,48 +1000,48 @@ msgstr ""
 
 #. [objective]: condition=win
 #: Brave_Wings/scenarios/05_Air_Battle.cfg:65
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:112
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:112
 msgid "Survive"
 msgstr ""
 
 #. [message]: id=Anguiron
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:150
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:145
 msgid "Ooo! Eggs! There are some eggs in the mountains."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:154
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:149
 msgid ""
 "Oh, those are Gryphon's eggs. We should not swallow them to avoid Gryphons "
 "flare up!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:170
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:165
 msgid "Stop! Please stop attacking us! We are not here to have your eggs!"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:174
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:169
 msgid ""
 "Hmmm … Once, if they think we are egg-stealers, changing their mind will "
 "probably be difficult."
 msgstr ""
 
 #. [unit]: type=Bw Dwarvish Annalist, id=Dultas
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:187
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:182
 msgid "Dultas"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:205
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:200
 msgid ""
 "What the blazes is going on here? Why are the gryphons so noisy? Ooo! "
 "Drakes? What're ye lads doing here? You're not from hereabouts, are ye?"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:209
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:204
 msgid ""
 "No, we come from Faith Island, far to the west. We are looking for a dwarf, "
 "named Montas, to make us a potion of holy water. Do you have any idea where "
@@ -1017,7 +1049,7 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:213
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:208
 msgid ""
 "Ah-ha! Of course I know, laddie, because he is my brother. But I cannot tell "
 "ye where until you tell me the reason why ye need that potion. It is very "
@@ -1025,14 +1057,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:217
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:212
 msgid ""
 "Wyngilla and Kasii told the dwarf about the events on their island. It was "
 "enough to convince Dultas to reveal what he knew..."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:222
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:217
 msgid ""
 "Well, we both were born here and have lived here most of our lives. Montas "
 "moved away a few years ago. Humans and Greenwood elves have been battling "
@@ -1043,14 +1075,14 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:226
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:221
 msgid ""
 "We appreciate that offer. Please, guide us to his place. We have to save our "
 "island."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:230
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:225
 msgid ""
 "Then it's settled! Brother Montas also makes a good drink in his laboratory, "
 "and I sometimes go there to get some. I had planned to go there tomorrow to "
@@ -1058,24 +1090,24 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:234
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:229
 msgid ""
 "Oh, no! I cannot fly, like you Drakes can. And if I stay here, I fear the "
 "gryphons would eat me!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:238
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:233
 msgid "You can ride on my back, Mélphine."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:242
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:237
 msgid "Oh, thank you! I have never flown before."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/05_Air_Battle.cfg:248
+#: Brave_Wings/scenarios/05_Air_Battle.cfg:243
 msgid "Follow me, lads! We go north!"
 msgstr ""
 
@@ -1084,15 +1116,15 @@ msgstr ""
 msgid "Western Union"
 msgstr ""
 
-#. [side]: type=General, id=Virgil
+#. [side]: type=General, id=Virraent
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:38
 #: Brave_Wings/scenarios/06_Western_Union.cfg:29
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:38
 msgid "Humans"
 msgstr ""
 
-#. [side]: type=General, id=Virgil
+#. [side]: type=General, id=Virraent
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:41
 #: Brave_Wings/scenarios/06_Western_Union.cfg:32
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:41
 msgid "Commander Virraent"
 msgstr ""
 
@@ -1101,14 +1133,14 @@ msgstr ""
 msgid "Drongayga"
 msgstr ""
 
+#. [side]: type=Orcish Warlord, id=Gushnak
 #. [side]: type=Orcish Warlord, id=Bogdush
 #. [side]: type=Direwolf Rider, id=Pogdish
 #. [side]: type=Orcish Warlord, id=Drongayga
-#. [side]: type=Orcish Warlord, id=Gushnak
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:92
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:140
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:64
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:85
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:133
 #: Brave_Wings/scenarios/06_Western_Union.cfg:68
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:64
 msgid "Local Orcs"
 msgstr ""
 
@@ -1136,47 +1168,47 @@ msgid "Of course not! It would honor us to stop those invaders."
 msgstr ""
 
 #. [unit]: type=Heavy Infantryman, id=Middry
-#: Brave_Wings/scenarios/06_Western_Union.cfg:183
+#: Brave_Wings/scenarios/06_Western_Union.cfg:179
 msgid "Middry"
 msgstr ""
 
 #. [unit]: type=Heavy Infantryman, id=Owinvan
-#: Brave_Wings/scenarios/06_Western_Union.cfg:194
+#: Brave_Wings/scenarios/06_Western_Union.cfg:190
 msgid "Owinvan"
 msgstr ""
 
 #. [unit]: type=Orcish Crossbowman, id=Grorag
-#: Brave_Wings/scenarios/06_Western_Union.cfg:206
-#: Brave_Wings/scenarios/06_Western_Union.cfg:220
-#: Brave_Wings/scenarios/06_Western_Union.cfg:234
+#: Brave_Wings/scenarios/06_Western_Union.cfg:202
+#: Brave_Wings/scenarios/06_Western_Union.cfg:216
+#: Brave_Wings/scenarios/06_Western_Union.cfg:230
 msgid "Grorag"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/06_Western_Union.cfg:251
-#: Brave_Wings/scenarios/06_Western_Union.cfg:329
+#: Brave_Wings/scenarios/06_Western_Union.cfg:247
+#: Brave_Wings/scenarios/06_Western_Union.cfg:326
 msgid "Aaaagrh ..."
 msgstr ""
 
-#. [message]: id=Virgil
-#: Brave_Wings/scenarios/06_Western_Union.cfg:263
-#: Brave_Wings/scenarios/06_Western_Union.cfg:341
+#. [message]: id=Virraent
+#: Brave_Wings/scenarios/06_Western_Union.cfg:259
+#: Brave_Wings/scenarios/06_Western_Union.cfg:338
 msgid ""
 "We appreciate your help, Dultas. Your drake companions aren't local, are "
 "they?"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/06_Western_Union.cfg:267
-#: Brave_Wings/scenarios/06_Western_Union.cfg:345
+#: Brave_Wings/scenarios/06_Western_Union.cfg:263
+#: Brave_Wings/scenarios/06_Western_Union.cfg:342
 msgid ""
 "No, laddie, they came from Faith Island, far southwest of here. They have "
 "urgent business with my brother."
 msgstr ""
 
-#. [message]: id=Virgil
-#: Brave_Wings/scenarios/06_Western_Union.cfg:271
-#: Brave_Wings/scenarios/06_Western_Union.cfg:349
+#. [message]: id=Virraent
+#: Brave_Wings/scenarios/06_Western_Union.cfg:267
+#: Brave_Wings/scenarios/06_Western_Union.cfg:346
 msgid ""
 "Why, that's good! I need to send Sergeant Tyngel and some troops to pick up "
 "weapons from your brother. The Thunderthrow is probably ready by now, and we "
@@ -1186,40 +1218,40 @@ msgid ""
 msgstr ""
 
 #. [unit]: type=Pikeman, id=Tyngel
-#: Brave_Wings/scenarios/06_Western_Union.cfg:276
-#: Brave_Wings/scenarios/06_Western_Union.cfg:354
+#: Brave_Wings/scenarios/06_Western_Union.cfg:272
+#: Brave_Wings/scenarios/06_Western_Union.cfg:351
 msgid "Sergeant Tyngel"
 msgstr ""
 
 #. [unit]: type=Spearman, id=Blaedry
-#: Brave_Wings/scenarios/06_Western_Union.cfg:293
-#: Brave_Wings/scenarios/06_Western_Union.cfg:371
+#: Brave_Wings/scenarios/06_Western_Union.cfg:290
+#: Brave_Wings/scenarios/06_Western_Union.cfg:369
 msgid "Blaedry"
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/06_Western_Union.cfg:302
-#: Brave_Wings/scenarios/06_Western_Union.cfg:380
+#: Brave_Wings/scenarios/06_Western_Union.cfg:299
+#: Brave_Wings/scenarios/06_Western_Union.cfg:378
 msgid "I will go with you, Dultas. Montas's laboratory is not far from here."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/06_Western_Union.cfg:306
-#: Brave_Wings/scenarios/06_Western_Union.cfg:384
+#: Brave_Wings/scenarios/06_Western_Union.cfg:303
+#: Brave_Wings/scenarios/06_Western_Union.cfg:382
 msgid "You can recruit Dwarvish Guardsman."
 msgstr ""
 
+#. [side]: type=Dwarvish Bandit Chief, id=Gomthaas
 #. [side]: type=Dwarvish Berserker, id=Pelalis
 #. [scenario]: id=07_Dwarvish_Bandits
-#. [side]: type=Dwarvish Bandit Chief, id=Gomthaas
 #. [side]: type=Dwarvish Berserker, id=Narril
 #. [side]: type=Dwarvish Bandit Chief, id=Gomatas
 #. [side]: type=Dwarvish Berserker, id=Nardrol
 #. [side]
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:155
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:4
 #: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:46
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:123
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:33
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:33
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:38
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:62
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:81
@@ -1278,40 +1310,40 @@ msgid "extra bonus by defeating the orc leader"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:192
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:731
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:763
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:188
 msgid "Go to hell!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:197
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:193
 msgid "Move Dultas to the entrance of the hidden laboratory"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:217
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:266
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:213
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:262
 msgid "You gain a bonus of 100 gold!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:235
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:231
 msgid "Aaaargh... I wanted to see humans living in... far north..."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:266
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:262
 msgid "Drakes! This way! I am very worried about Montas."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:270
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:266
 msgid "I also worry about Thunderthrow."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:274
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:185
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:270
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:185
 msgid "....."
 msgstr ""
 
@@ -1338,46 +1370,46 @@ msgid "Nardrol"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:97
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:93
 msgid "Blast! It's empty."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:101
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:97
 msgid ""
 "The bandits seem to have run away already. Dultas, you know how to open the "
 "storeroom, don't you?"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:105
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:101
 msgid "Aye! That I do. Come this way."
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:113
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:109
 msgid "Move Dultas to the rune sign"
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:276
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:268
 msgid "Good! Montas might have hidden in there."
 msgstr ""
 
 #. [unit]: type=Dwarvish Scout, id=Anatas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:292
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:284
 msgid "Anatas"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:308
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:301
 msgid ""
 "Anatas! Ye're safe now, lad. What happened here? Where is Montas? And where "
 "is the Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Anatas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:312
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:305
 msgid ""
 "Dultas! Whew! It's good to be free. Montas pushed me into the storeroom when "
 "the bandits broke in. I heard a fight, so he might have been kidnapped. The "
@@ -1387,7 +1419,7 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:316
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:309
 msgid ""
 "Oh, no... This is bad... very bad! We have to find them quickly and get the "
 "Thunderthrow back. If they sell it to the orcs, it would be doom for the "
@@ -1395,7 +1427,7 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Anatas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:320
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:313
 msgid ""
 "That ye may, sir! But each weapon is designed for a particular kind of "
 "warrior, so we'll have to carefully match people and weapons. If it helps to "
@@ -1403,7 +1435,7 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:324
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:317
 msgid ""
 "Drakes, the potion ye seek is the grey one. Please take it, and go with my "
 "thanks, for helping us recover the laboratory. I have to try to rescue "
@@ -1412,7 +1444,7 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:328
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:321
 msgid ""
 "Not to worry, Dultas. Rescuing our home is very important, but we cannot "
 "leave your brother to his fate. I agree that you will need our help to "
@@ -1420,152 +1452,152 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:332
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:325
 msgid "I agree, Wyngilla! It is right and just that we rescue Montas."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:336
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:329
 msgid ""
 "Friendly drakes, stories will be told about your honor and bravery! I also "
 "want to help!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:341
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:334
 msgid "Move Kasii to the grey potion"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:387
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:380
 msgid "Thank you, Dultas. Now we can save our island."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:391
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:384
 msgid "The bomb looks to be very heavy. Let me carry it."
 msgstr ""
 
 #. [effect]: type=arcane
 #. [object]: id=shadow_bane
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:438
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:465
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:431
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:458
 msgid "shadowbane"
 msgstr ""
 
 #. [object]: id=shadow_bane
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:439
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:432
 msgid "This magical sword equips 'arcane' damage type."
 msgstr ""
 
 #. [object]: id=shadow_bane
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:453
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:446
 msgid "This is useful only to a warrior that is highly skilled with swords."
 msgstr ""
 
 #. [effect]: type=pierce
 #. [object]: id=mamba_spear
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:496
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:521
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:535
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:489
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:514
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:528
 msgid "mamba spear"
 msgstr ""
 
 #. [object]: id=mamba_spear
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:497
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:490
 msgid "mamba spear makes enemies poisoned"
 msgstr ""
 
 #. [object]: id=mamba_spear
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:508
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:501
 msgid "This is useful only to a warrior that is highly skilled with spears."
 msgstr ""
 
 #. [effect]: type=blade
 #. [object]: id=ark_halberd
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:597
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:627
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:590
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:620
 msgid "ark halberd"
 msgstr ""
 
 #. [object]: id=ark_halberd
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:598
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:591
 msgid "This halberd chops up enemies well"
 msgstr ""
 
 #. [object]: id=ark_halberd
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:615
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:608
 msgid "This is useful only to a warrior that is highly skilled with halberds."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:653
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:646
 msgid "This is my brother's drink, not a weapon."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:691
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:684
 msgid ""
 "This bomb is very powerful, but very heavy. I think we should leave it here."
 msgstr ""
 
 #. [message]: id=Anatas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:736
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:729
 msgid "That is the guy who broke in."
 msgstr ""
 
 #. [message]: id=Nardrol
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:740
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:733
 msgid "Ha! What are you? The Western Union? I can defeat you!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:744
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:737
 msgid "Where is Montas and Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Nardrol
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:748
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:741
 msgid ""
 "I don't know! I've handed them over to my boss, and I've already been paid. "
 "You cannot interfere because I'm going to destroy you."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:836
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:829
 msgid "To the Greenwood"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:852
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:845
 msgid "Ooh! the wall is moving!"
 msgstr ""
 
 #. [unit]: type=Dwarvish Steelclad, id=Tridril
 #. [unit]: type=Dwarvish Fighter, id=Tridril
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:869
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:883
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:897
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:862
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:876
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:890
 msgid "Tridril"
 msgstr ""
 
 #. [message]: id=Tridril
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:912
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:905
 msgid "Thank you!"
 msgstr ""
 
 #. [message]: id=Gomatas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:955
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:948
 msgid "Who is this in my hidden cave? The Western Union?"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:959
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:952
 msgid "Where is my brother and Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Gomatas
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:963
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:956
 msgid ""
 "They are not here anymore. Sold them, I have, and they are already on their "
 "way north. And you cannot follow them because you're never going to leave "
@@ -1573,17 +1605,17 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:984
+#: Brave_Wings/scenarios/08_Hidden_Cave.cfg:977
 msgid "A good victory, everyone! Now we must go north... quickly."
 msgstr ""
 
-#. [scenario]: id=08b_Bandit's_Connection
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:4
+#. [scenario]: id=09_Bandit's_Connection
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:4
 msgid "Bandit's Connection"
 msgstr ""
 
 #. [part]
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:9
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:9
 msgid ""
 "After defeating the Dwarvish Bandits, Wyngilla and company continued "
 "northward through the caves, hoping to find and rescue Montas and to take "
@@ -1593,42 +1625,42 @@ msgid ""
 msgstr ""
 
 #. [side]: type=Dwarvish Berserker, id=Narril
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:36
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:36
 msgid "Narril"
 msgstr ""
 
 #. [unit]: type=Dwarvish Berserker, id=Pelthaas
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:57
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:57
 msgid "Pelthaas"
 msgstr ""
 
 #. [side]: type=Direwolf Rider, id=Erulo
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:83
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:83
 msgid "Erulo"
 msgstr ""
 
 #. [side]: type=Direwolf Rider, id=Erulo
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:84
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:84
 msgid "Goblins"
 msgstr ""
 
 #. [side]: type=Bw Hydra, id=Orou
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:105
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:105
 msgid "Orou"
 msgstr ""
 
 #. [side]: type=Bw Hydra, id=Orou
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:106
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:106
 msgid "Serpents"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:177
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:177
 msgid "Lads, I canna' believe that shiftless bandits dug these caverns."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:181
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:181
 msgid ""
 "We thought the laboratory was safe. We never imagined that bandits could "
 "steal anything, much less Thunderthrow, from inside the laboratory. The "
@@ -1636,39 +1668,39 @@ msgid ""
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:207
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:207
 msgid "Move Wyngilla or Dultas to the exit at north west"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:262
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:258
 msgid ""
 "More o' their treasure! Take it we should. When we finish with them, they "
 "won't need it anymore."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:288
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:284
 msgid "Gwaaarh..."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:299
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:295
 msgid "You gain an extra bonus of 100 gold!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:402
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:398
 msgid "What is that sign for? Teleporting, maybe?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:418
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:414
 msgid "Uuuh... I should have put the armor on..."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:437
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:433
 msgid ""
 "By Thunder! 'tis the special armor that Montas makes! I did na' realize that "
 "they had stolen it, too. We're already equipped, so Drakes, one of ye should "
@@ -1677,71 +1709,71 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:451
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:447
 msgid "You defeat us, but too late for you! ha! cough... ha..."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:455
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:451
 msgid "Rave on... ye'll not see the future, nor what we do next."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:459
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:455
 msgid "Dultas, make haste! The tunnel continues on to the north."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:485
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:481
 msgid "This magical dwarven armor gives a unit extra protection from attack."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:490
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:486
 msgid "Should I take this armor?"
 msgstr ""
 
 #. [option]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:492
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:488
 msgid "Yes!"
 msgstr ""
 
 #. [object]: id=battle_jacket
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:500
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:496
 msgid "battle jacket"
 msgstr ""
 
 #. [object]: id=battle_jacket
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:501
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:497
 msgid "Battle Jacket increases the wearer's resistance to attack by 20%."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:518
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:514
 msgid "Amazing! It's light and fits even on me."
 msgstr ""
 
 #. [option]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:536
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:532
 msgid "No!"
 msgstr ""
 
 #. [message]: id=Narril
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:586
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:582
 msgid ""
 "Drakes? Here? Impossible! Get out o' this cave! Or we'll feed ye to the "
 "Serpents!"
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:590
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:586
 msgid ""
 "You're a Bandit! Or in league with them! Tell us where Montas and the "
 "Thunderthrow weapon are!"
 msgstr ""
 
 #. [message]: id=Narril
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:594
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:590
 msgid ""
 "Oh-ho! Western Union, eh? That crazy weapon passed by here some time ago. "
 "And it may be ready to use by now... Too bad for you. And the old maniac "
@@ -1749,43 +1781,43 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:598
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:594
 msgid ""
 "Hmmm... Maniac, eh? This lad is daft himself. And 'tis sure that he'll na' "
 "help us."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:681
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:677
 msgid "Look! A goblin camp! Why are they here in the cave?"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:685
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:681
 msgid "Hmmm... That's not a good sign."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:689
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:685
 msgid "It seems we had better move as quickly as possible."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/08b_Bandit's_Connection.cfg:718
+#: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:714
 msgid "Everyone, move this way quickly!"
 msgstr ""
 
 #. [unit_type]: id=Thunderthrow, race=mechanical
 #. [unit]: type=Thunderthrow, id=Thunderthrow
-#. [scenario]: id=09_Thunderthrow
+#. [scenario]: id=10_Thunderthrow
 #: Brave_Wings/units/Thunderthrow.cfg:4
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:4
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:332
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:4
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:364
 msgid "Thunderthrow"
 msgstr ""
 
 #. [part]
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:9
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:9
 msgid ""
 "They followed the tunnel north, and when they reached the end of it, the "
 "city of Limarig was right front of them. Commander Virgil of the Western "
@@ -1793,37 +1825,36 @@ msgid ""
 msgstr ""
 
 #. [side]: type=Orcish Warlord, id=Gushnak
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:63
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:63
 msgid "Gushnak"
 msgstr ""
 
 #. [side]: type=Dwarvish Bandit Chief, id=Gomthaas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:122
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:154
 msgid "Gomthaas"
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:147
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:179
 msgid ""
 "Move Wyngilla next to Thunderthrow, then leave there in 6 turns, and Rescue "
 "Montas"
 msgstr ""
 
 #. [objectives]
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:151
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:601
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:183
 msgid ""
-"Hint: Wyngilla needs to move one hex or more to blow up Thunderthrow after "
+"Hint: Wyngilla needs to move one-hex or more to blow up Thunderthrow after "
 "reaching there"
 msgstr ""
 
 #. [message]: id=Virgil
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:221
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:253
 msgid "Tyngel... What kept you? And where is the Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:225
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:257
 msgid ""
 "Gwahahaha! Thunderthrow is right here, in the front of us. Our capable "
 "friends took it from the laboratory and brought it here. It took time, but "
@@ -1831,12 +1862,12 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:229
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:261
 msgid "Oh, no! Montas is in that cage."
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:233
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:265
 msgid ""
 "Western Union, prepare to die! But first, a demonstration. Gunners, aim for "
 "the Commander of the Western Union force. He has been a big problem for too "
@@ -1844,103 +1875,110 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:313
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:345
 msgid "Noooo, Commander Virraent!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:317
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:349
 msgid ""
 "We Drakes will take care of that powerful weapon, Tyngel, so you can "
 "concentrate on leading your troops."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:370
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:402
 msgid "Move away from the Thunderthrow! I will blow it up!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:374
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:406
 msgid ""
 "Wyngilla will blow up the Thunderthrow when he moves to any directions from "
 "the current hex that he is on."
 msgstr ""
 
 #. [message]: id=Gushnak
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:443
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:499
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:475
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:531
 msgid "Uh!... What happened? How did they do that? Assassins, be ready!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:468
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:524
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:500
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:556
 msgid "Rescue Montas and Defeat all enemy leaders"
 msgstr ""
 
 #. [unit]: type=Dwarvish Runemaster, id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:554
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:586
 msgid "Montas"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:564
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:596
 msgid "Montas, are ye all right?"
 msgstr ""
 
 #. [message]: id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:568
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:600
 msgid ""
 "Dultas! Good ye're here, brother. I'm all right, but where is the "
 "Thunderthrow?"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:580
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:612
 msgid ""
 "Drakes from Faith Island are on our side, and they will blow it up, using "
 "yer bomb."
 msgstr ""
 
 #. [message]: id=Montas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:584
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:632
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:616
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:664
 msgid ""
 "Good. I should not have created that weapon. It was too destructive and far "
 "too dangerous."
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:597
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:629
 msgid "Move Wyngilla next to Thunderthrow, then leave there in the 6 turns"
 msgstr ""
 
+#. [objectives]
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:633
+msgid ""
+"Hint: Wyngilla needs to move one hex or more to blow up Thunderthrow after "
+"reaching there"
+msgstr ""
+
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:608
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:640
 msgid ""
 "Move Wyngilla next to Thunderthrow, then leave there in the 6 turns, and "
 "defeat all enemy leaders"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:628
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:660
 msgid ""
 "Drakes from Faith Island are on our side, and their leader blew it up, using "
 "yer bomb."
 msgstr ""
 
 #. [unit]: type=Elvish Scout, id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:647
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:750
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:839
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:679
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:782
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:871
 msgid "Evandel"
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:655
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:758
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:847
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:687
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:790
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:879
 msgid ""
 "Sir! Report from the Eastern Union! The orcish Lord of Castelfranc has "
 "agreed to a peace treaty. We are not to attack or invade each other anymore. "
@@ -1948,15 +1986,15 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:659
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:762
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:851
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:691
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:794
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:883
 msgid ""
 "Really? That's good news, scout. How did the agreement happen so quickly?"
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:663
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:695
 msgid ""
 "Sir, Marshal Háwclyn of the Southern Greenwood went to Castelfranc as soon "
 "as we captured Grisbi. He convinced the orcish lord to sign an agreement. In "
@@ -1964,52 +2002,52 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:667
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:771
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:860
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:699
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:803
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:892
 msgid ""
 "Oooh, Háwclyn is such a persuasive negotiator. So he has saved us a battle? "
 "That's the second time in just a few years. He'll be a hero."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:671
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:775
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:864
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:703
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:807
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:896
 msgid "It seems we are able to go home, Kasii."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:675
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:779
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:868
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:707
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:811
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:900
 msgid "Yup! Wyngilla."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:679
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:783
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:872
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:711
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:815
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:904
 msgid ""
 "I appreciate the help, drakes. Now ye need to save yer home. Please take "
 "some gold as a sign of our appreciation."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:690
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:794
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:883
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:722
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:826
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:915
 msgid "Yay! Let's go back to the ocean!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:727
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:759
 msgid "Aaaagrh... No gold for me..."
 msgstr ""
 
 #. [message]: id=Evandel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:767
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:856
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:799
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:888
 msgid ""
 "Sir, Marshal Háwclyn of the Southern Greenwood went to Castelfranc as soon "
 "as we captured Grisbi. He convinced the orcish lord to sign an agreement. In "
@@ -2018,32 +2056,32 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:816
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:848
 msgid "Aaaagrh... Why these drakes... Are not even local..."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:820
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:852
 msgid "This is for Commander Virraent."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:905
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:937
 msgid "Aaaargh... Dultas... take care..."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/09_Thunderthrow.cfg:909
+#: Brave_Wings/scenarios/10_Thunderthrow.cfg:941
 msgid "Nooooo... Montas! We were supposed to drink more together!"
 msgstr ""
 
-#. [scenario]: id=10_Orcish_Newport
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:4
-msgid "Orcish Newport"
+#. [scenario]: id=11_Mermaid_Commander
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:4
+msgid "Mermaid Commander"
 msgstr ""
 
 #. [part]
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:9
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:9
 msgid ""
 "The efforts of Wyngilla, Kasii, and others ended the war between the "
 "alliance and the orcs in the year 245 YW. The war had lasted eight long "
@@ -2055,92 +2093,253 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:13
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:13
 msgid ""
 "After saying farewell to Dultas, Montas, Tyngel, and the soldiers and elves "
 "of the alliance, the drakes headed southwest, along the Bark River. As they "
-"neared the ocean, they entered into merman territory. Though the ink was "
-"hardly dry on the new peace treaty, orcs from Barag Gor were trying to "
-"capture territory in order to construct a port and city to interfere with "
-"ship traffic from Wesnoth. The Drakes were naturally pulled into the "
-"conflict by their sense of honor and justice..."
+"neared the ocean after passing the city of Prestim, they entered into merman "
+"territory that had been built for patrolling the area..."
 msgstr ""
 
 #. [side]: type=Merman Javelineer, id=Faroteus
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:45
+#. [side]: type=Mermaid Enchantress, id=Electranda
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:40
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:45
 msgid "Mermen"
 msgstr ""
 
-#. [side]: type=Merman Javelineer, id=Faroteus
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:48
-msgid "Faroteus"
+#. [side]: type=Mermaid Enchantress, id=Electranda
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:48
+msgid "Electranda"
 msgstr ""
 
-#. [side]: type=Orcish Warlord, id=Bogdush
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:91
-msgid "Bogdush"
+#. [side]: type=Dire Wolf, id=Eriool
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:113
+msgid "Eriool"
+msgstr ""
+
+#. [side]: type=Dire Wolf, id=Eriool
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:114
+msgid "Local Monsters"
 msgstr ""
 
 #. [unit]: type=Orcish Galleon, id=Orcs 1
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:110
+#. [unit]: type=Orcish Galleon, id=Orc_1
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:103
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:146
 msgid "Orc 1"
 msgstr ""
 
-#. [unit]: type=Orcish Galleon, id=Orcs 2
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:121
-msgid "Orc 2"
+#. [side]: type=Ogre, id=Gurm
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:164
+msgid "Gurm"
 msgstr ""
 
-#. [side]: type=Direwolf Rider, id=Pogdish
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:139
-msgid "Pogdish"
+#. [side]: type=Ogre, id=Gurm
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:165
+msgid "Local Ogres"
 msgstr ""
 
-#. [unit]: type=Orcish Galleon, id=Orcs 4
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:155
-msgid "Orc 4"
-msgstr ""
-
-#. [unit]: type=Orcish Galleon, id=Orcs 3
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:166
-msgid "Orc 3"
-msgstr ""
-
-#. [side]
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:180
-msgid "Yetis"
+#. [objective]: condition=win
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:188
+msgid "Defeat the wolf leader"
 msgstr ""
 
 #. [objective]: condition=lose
 #: Brave_Wings/utils/bw-utils.cfg:30 Brave_Wings/utils/bw-utils.cfg:49
 #: Brave_Wings/utils/bw-utils.cfg:71
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:200
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:124
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:500
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:193
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:124
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:509
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:200
 msgid "Death of Mélphine"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:204
-msgid "Death of Faroteus"
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:204
+msgid "Death of Electranda"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:308
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:268
 msgid ""
-"Ooo! It appears that those mermen are preparing to battle two clans of orcs. "
-"Are they your friends, Mélphine?"
+"Ooo! It appears that a mermaid commander is preparing to battle. Are they "
+"your friend, Mélphine?"
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:312
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:272
 msgid ""
 "Aah, well, we are all friends, but I am from the deep ocean and they are "
 "from a coastal community."
 msgstr ""
 
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:333
+msgid "Awooooo... Awooooo... Awooooo..."
+msgstr ""
+
+#. [message]: id=Electranda
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:338
+msgid ""
+"Hmmm... wolves are howling so excitedly that I have never seen... Something "
+"is going on the south..."
+msgstr ""
+
+#. [message]: id=Kasii
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:355
+msgid "Uh! That is orc's ship!"
+msgstr ""
+
+#. [message]: id=Electranda
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:366
+msgid ""
+"Hey, drakes! I am not sure either where you come from and where you are "
+"going, but I will appreciate if you help defeating those beasts. My sir, "
+"Faroteus, is in another fortress at the mouth of the river with the most of "
+"our soldiers, so we are less soldiers here now. You can use my keep over "
+"there, anyway."
+msgstr ""
+
+#. [message]: id=Wyngilla
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:370
+msgid "My pleasure, ma'am."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:404
+msgid "You can now recruit Merman Hunters and Mermaid Initiates."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:432
+msgid "Uh-oh...!"
+msgstr ""
+
+#. [message]: id=Ghost_1
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:436
+msgid "... A great lord has returned..."
+msgstr ""
+
+#. [message]: id=Wyngilla
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:440
+msgid "A great lord...? Who is that?"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:498
+msgid "Awooo! Awooo! A-woo!"
+msgstr ""
+
+#. [message]: id=Gurm
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:512
+msgid ""
+"What? Orcs will build a city for us if we help them...? \n"
+"Sure, I will support them."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:526
+msgid "Extra bonus by defeating the ogre leader."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:542
+msgid "Aaargh... Defeat them all... Then tell Faroteus... here is safe..."
+msgstr ""
+
+#. [message]: speaker=Wyngilla
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:546
+msgid "Nooo... We cannot let you die..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:559
+msgid "Aaagrh... I should have spent these golds..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:584
+msgid "You gain a bonus of 200 gold!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:596
+msgid "Aooooow..."
+msgstr ""
+
+#. [message]: id=Electranda
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:600
+msgid ""
+"Thanks, drakes. It seems you may have another battle on your way to the "
+"south, and I cannot leave here as my mission, so keep our soldiers with you. "
+"And tell Faroteus that here is safe, please."
+msgstr ""
+
+#. [message]: id=Wyngilla
+#: Brave_Wings/scenarios/11_Mermaid_Commander.cfg:604
+msgid "Indeed, ma'am."
+msgstr ""
+
+#. [scenario]: id=12_Orcish_Newport
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:4
+msgid "Orcish Newport"
+msgstr ""
+
+#. [part]
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:9
+msgid ""
+"Though the ink was hardly dry on the new peace treaty, orcs from Barag Gor "
+"were trying to capture territory in order to construct a port and city to "
+"interfere with ship traffic from Wesnoth. In fact, even though the Lord of "
+"Castlfranc agreed for the peace treaty with humans and elves, one in Barag "
+"Gor did not totally care what was going on between the two forces. The "
+"Drakes were naturally pulled into the conflict by their sense of honor and "
+"justice..."
+msgstr ""
+
+#. [side]: type=Merman Javelineer, id=Faroteus
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:43
+msgid "Faroteus"
+msgstr ""
+
+#. [side]: type=Orcish Warlord, id=Bogdush
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:84
+msgid "Bogdush"
+msgstr ""
+
+#. [unit]: type=Orcish Galleon, id=Orcs 2
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:114
+msgid "Orc 2"
+msgstr ""
+
+#. [side]: type=Direwolf Rider, id=Pogdish
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:132
+msgid "Pogdish"
+msgstr ""
+
+#. [unit]: type=Orcish Galleon, id=Orcs 4
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:148
+msgid "Orc 4"
+msgstr ""
+
+#. [unit]: type=Orcish Galleon, id=Orcs 3
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:159
+msgid "Orc 3"
+msgstr ""
+
+#. [side]
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:173
+msgid "Yetis"
+msgstr ""
+
+#. [objective]: condition=lose
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:197
+msgid "Death of Faroteus"
+msgstr ""
+
 #. [message]: id=Faroteus
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:316
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:278
 msgid ""
 "Hello! If you are not friends of those orcs, can you help us defeat them? "
 "They came from far north of here, and are grabbing territory and stirring up "
@@ -2148,47 +2347,48 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:320
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:283
 msgid ""
-"Sure! It is an honor to help defeat someone who disturbs the public order."
+"Sure! It is an honor to help defeat someone who disturbs the public order. \n"
+"Oh, your fortress and Electranda is safe, by the way."
 msgstr ""
 
-#. [message]: speaker=narrator
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:348
-msgid "You can now recruit Merman Hunters and Mermaid Initiates."
+#. [message]: id=Faroteus
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:287
+msgid "Glad to hear it, thanks."
 msgstr ""
 
 #. [message]: id=Bogdush
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:369
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:305
 msgid ""
 "Drakes? We did not expect they are here. Praol! Where is Praol? I need to "
 "speak with you!"
 msgstr ""
 
 #. [unit]: type=Goblin Pillager, id=Praol
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:381
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:317
 msgid "Praol"
 msgstr ""
 
 #. [message]: id=Praol
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:390
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:326
 msgid "Yes, sir!"
 msgstr ""
 
 #. [message]: id=Bogdush
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:395
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:331
 msgid ""
 "Praol, my loyal negotiator: Drakes are their allies, so I will give you an "
 "important assignment. Go to the mountain, then bring the monster in our side!"
 msgstr ""
 
 #. [message]: id=Praol
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:399
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:335
 msgid "Eh! Sir, I am afraid it is impossible!"
 msgstr ""
 
 #. [message]: id=Bogdush
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:403
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:339
 msgid ""
 "Come! Do just like negotiating the other monsters! We must stop humans "
 "coming from Wesnoth anymore! And our allies on Castlefranc are unreliable! "
@@ -2196,99 +2396,99 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Praol
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:407
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:343
 msgid "Ah... Yes, sir... I am trying..."
 msgstr ""
 
 #. [unit]: type=Monster, id=Mavron
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:469
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:408
 msgid "Mavron"
 msgstr ""
 
 #. [message]: id=Mavron
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:485
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:501
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:424
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:440
 msgid ""
 "Noise! Again!\n"
 "I have already told you! I do not to join with orcs."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:489
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:428
 msgid ""
 "Excuse us! We are not orcs, and if you are not a friend of those orcs at "
 "all, why don't you join us? We are Drakes from Faith Island."
 msgstr ""
 
 #. [message]: id=Mavron
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:494
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:510
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:433
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:449
 msgid ""
 "Aaa...? Drakes from Faith Island?\n"
 "My grandfather was from there long time ago. Alright, my pleasure!"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:505
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:444
 msgid ""
 "Oh, wait! Excuse us! If you are not a friend of those orcs, why don't you "
 "join us? We are Drakes from Faith Island."
 msgstr ""
 
 #. [message]: id=Bogdush
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:549
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:491
 msgid "Praol! Do you take them out with you?"
 msgstr ""
 
 #. [message]: id=Praol
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:553
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:495
 msgid "Ah... Yes, sir! But..."
 msgstr ""
 
 #. [unit]: type=Yeti, id=Mog
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:565
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:507
 msgid "Mog"
 msgstr ""
 
 #. [unit]: type=Yeti, id=Tog
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:576
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:518
 msgid "Tog"
 msgstr ""
 
 #. [message]: id=Mog
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:585
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:527
 msgid "Leave... us... alone... We... fight... for... no one..."
 msgstr ""
 
 #. [message]: id=Tog
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:589
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:531
 msgid "We... hate... anyone... has a torch..."
 msgstr ""
 
 #. [message]: id=Bogdush
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:593
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:535
 msgid "What! You did not success to negotiate with them, did you?"
 msgstr ""
 
 #. [message]: id=Praol
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:597
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:539
 msgid ""
-"Ah... I am afraid not, Sir. They said that they do not like my torch, sir."
+"Ah... I am afraid not, sir. They said that they do not like my torch, sir."
 msgstr ""
 
 #. [message]: id=Bogdush
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:601
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:543
 msgid "Ummm..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:619
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:561
 msgid "Aaaagrh..."
 msgstr ""
 
 #. [message]: id=Faroteus
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:631
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:667
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:573
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:609
 msgid ""
 "Thank you, drakes. Orcs tried to sneak in and secretly build a city here. "
 "Keep some of my soldiers, just in case. The ocean is not a safe place for "
@@ -2296,42 +2496,42 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:635
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:671
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:577
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:613
 msgid "Thanks! Mermen and humans can now move around here safely."
 msgstr ""
 
 #. [message]: id=Mavron
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:639
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:581
 msgid ""
 "I want to see where my grandfather came from. I am Mavron, a local monster "
 "here. Let me follow you, drakes."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:655
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:597
 msgid "Aaaagrh... why are drakes flying here...?"
 msgstr ""
 
 #. [message]: id=Mavron
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:675
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:617
 msgid ""
 "I want to see where my grandfather came from. Let me follow you, drakes. I "
 "don't fly, but I swim as fast as you fly on the ocean."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/10_Orcish_Newport.cfg:691
+#: Brave_Wings/scenarios/12_Orcish_Newport.cfg:633
 msgid "Aaaack... Orcish ports should not be here..."
 msgstr ""
 
-#. [scenario]: id=11_Melphine's_Home_Seas
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:4
+#. [scenario]: id=13_Melphine's_Home_Seas
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:4
 msgid "Mélphine's Home Seas"
 msgstr ""
 
 #. [part]
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:9
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:9
 msgid ""
 "After helping to defeat the orcs, Wyngilla and company made for home via "
 "Melphine's native seas those were just on the way to get the island. "
@@ -2339,49 +2539,49 @@ msgid ""
 msgstr ""
 
 #. [side]: type=Spectre, id=Bam
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:43
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:43
 msgid "Bam"
 msgstr ""
 
 #. [side]: type=Merman Outcast, id=Ikateus
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:64
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:64
 msgid "Ikateus"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:164
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:160
 msgid "This trident allows a merman to shoot electric bolts at his enemies!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:169
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:165
 msgid "Should I take this magical weapon?"
 msgstr ""
 
 #. [effect]: type=fire
 #. [object]: id=storm_trident
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:179
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:205
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:175
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:201
 msgid "storm trident"
 msgstr ""
 
 #. [object]: id=storm_trident
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:180
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:176
 msgid "Storm Trident gives the taker a new range attack."
 msgstr ""
 
 #. [object]: id=storm_trident
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:189
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:185
 msgid "Only a merman is able to take this magical weapon."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:245
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:241
 msgid "I cannot handle this. It is for a merman only."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:306
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:302
 msgid ""
 "Look! That is Ikateus's Storm Trident! Something must have happened to him!"
 msgstr ""
@@ -2389,17 +2589,17 @@ msgstr ""
 #. [unit_type]: id=Ghost Ship, race=mechanical
 #. [unit]: type=Ghost Ship, id=Ghost Ship
 #: Brave_Wings/units/Ghost_Ship.cfg:4
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:317
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:313
 msgid "Ghost Ship"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:354
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:350
 msgid "Hmmm... It is strange. Why is the ocean so dark even in the morning?"
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:358
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:354
 msgid ""
 "Our territory is around here... yes, there are many rocks, some sticking up "
 "out of the ocean. The rocks hide us well, we have built a fortress near "
@@ -2407,34 +2607,34 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:362
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:358
 msgid "Shhh! Somebody is coming!"
 msgstr ""
 
 #. [unit]: type=Merman Warrior, id=Triteus
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:367
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:363
 msgid "Triteus"
 msgstr ""
 
 #. [unit]: type=Merman Warrior, id=Embere
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:380
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:376
 msgid "Embere"
 msgstr ""
 
 #. [message]: id=Triteus
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:392
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:388
 msgid "Mélphine! Good! You are alive!"
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:396
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:392
 msgid ""
 "What are you talking about? You didn't even try to rescue me. If Wyngilla "
 "and these drakes hadn't come along, I wouldn't have survived!"
 msgstr ""
 
 #. [message]: id=Embere
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:400
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:396
 msgid ""
 "We did! But when we reached the Naga's place, you were gone, and all of them "
 "were dead already. After that, Ikateus and his whole army continued looking "
@@ -2442,76 +2642,76 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:404
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:400
 msgid "Disappeared? That is strange. It might relate to this darkness."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:414
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:410
 msgid "Hyaaargh! That is Ikateus's soldier! What has happened to him?"
 msgstr ""
 
 #. [message]: id=Triteus
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:418
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:414
 msgid "Hmmm... Something is going on. They have been transformed into undead."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:458
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:454
 msgid "Uoow! That is a Ghost Ship!"
 msgstr ""
 
 #. [message]: id=Triteus
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:462
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:458
 msgid "That's unusual, especially around here."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:502
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:547
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:498
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:543
 msgid "You might have a good luck at another sunken ship."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:514
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:538
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:510
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:534
 msgid ""
 "Oh, that is the holy water! A holy water is appeared from the sunken ship."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:569
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:565
 msgid "Good-bye, Ikateus. It was only way that we could help you."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:585
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:632
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:581
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:628
 msgid "This area is safe now. We should get back to our island quickly."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:589
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:636
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:585
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:632
 msgid ""
 "Your courage has regained me my home. Thank you. I shall do the same for you "
 "friend by and helping you to return to Faith Island."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/11_Melphine's_Home_Seas.cfg:620
+#: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:616
 msgid ""
 "You may have vanquished me, but it is too late... Kragash Varg has captured "
 "Faith Island already. Hahaha..."
 msgstr ""
 
-#. [scenario]: id=12_Legend_of_a_Dragon
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:4
+#. [scenario]: id=14_Legend_of_a_Dragon
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:4
 msgid "Legend of a Dragon"
 msgstr ""
 
 #. [part]
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:9
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:9
 msgid ""
 "Wyngilla and the others finally arrived back at Faith Island with the holy "
 "water. But the island had been invaded, and Orofarnië and Lord Eagi-Nyess "
@@ -2520,27 +2720,27 @@ msgid ""
 msgstr ""
 
 #. [side]: type=Skeletal Dragon, id=Kragash Varg
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:42
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:42
 msgid "Kragash Varg"
 msgstr ""
 
 #. [side]: type=Death Knight, id=Vam
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:74
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:74
 msgid "Vam"
 msgstr ""
 
 #. [side]: type=Merman Outcast, id=Neptus
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:97
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:97
 msgid "Neptus"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:396
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:405
 msgid "Hmmm... The specter was right... The island has been invaded."
 msgstr ""
 
-#. [message]: id=Eagi-Nyess_2
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:403
+#. [message]: id=Eagi-Nyess
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:412
 msgid ""
 "Wyngilla, I should say welcome back, but given the situation, it would be "
 "better for you to flee and save yourselves. That invader is totally "
@@ -2550,26 +2750,26 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Kragash Varg
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:410
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:419
 msgid ""
 "It is a pleasure to finally meet you, my son. I offer you a chance to rule "
 "this island by my side."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:417
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:426
 msgid ""
 "Do you hope to snare me with your lies? My father died when I was still in "
 "the egg."
 msgstr ""
 
 #. [message]: id=Kragash Varg
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:424
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:433
 msgid "True... I was killed by drakes while you were in the egg."
 msgstr ""
 
-#. [message]: id=Eagi-Nyess_2
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:431
+#. [message]: id=Eagi-Nyess
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:440
 msgid ""
 "Wyngilla, forgive me for never telling you, but the monster speaks the truth "
 "- you really are his son. I tried to raise you in full appreciation of drake "
@@ -2580,12 +2780,12 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Orofarnie
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:435
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:444
 msgid "Yes... Our fate we will take..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:442
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:451
 msgid ""
 "No, Sir! We haven't lost yet! Whatever my birth father was or is, I was born "
 "on this island, and I am obligated to save everyone here. No, Sir! I cannot "
@@ -2593,91 +2793,91 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:446
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:455
 msgid "Wyngilla! You can count on me in this battle."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:450
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:459
 msgid "Well said, Wyngilla! I will stand by you in this as well."
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:457
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:466
 msgid ""
 "Ummm... They are stronger than I thought. I cannot get close enough to give "
 "the holy water to Lord Eagi-Nyess."
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:471
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:480
 msgid "Let me deliver it to him!"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:475
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:484
 msgid "Ooh! But you'd be captured or killed!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:479
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:488
 msgid "No! Mélphine, you should stick with me!"
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:483
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:492
 msgid "Don't worry, Wyngilla. I want to help, and the ocean is my element."
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:488
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:497
 msgid "Move Mélphine next to Eagi-Nyess"
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:524
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:533
 msgid "Drake Lord, I will soon be there with the holy water."
 msgstr ""
 
 #. [message]: id=Kragash Varg
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:535
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:544
 msgid "Mind your own business, fishy witch!"
 msgstr ""
 
 #. [message]: id=Melphine
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:566
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:575
 msgid "Aaaagrh...Wyngilla...I am...I..."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:652
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:661
 msgid "Nooooooo!... Mélphine!"
 msgstr ""
 
 #. [message]: id=Kragash Varg
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:660
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:669
 msgid "I really hate the fishfolk, always getting stuck between my teeth."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:664
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:673
 msgid ""
 "Now I'm mad! Really mad! Mélphine was a friend, and helped us voluntarily on "
 "our quest. You may be my birth father, but I am furious with you!"
 msgstr ""
 
 #. [message]: id=Kasii
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:668
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:677
 msgid "Oh, my... I have never seen Wyngilla so angry."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:672
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:681
 msgid "UOOOOOOOHHH...!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:737
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:746
 msgid ""
 "Witnessing Melphine's death, Wyngilla's reptilian eyes burned with anger and "
 "outrage. He let out an ear-splitting roar that echoed off the nearby hills "
@@ -2690,80 +2890,88 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:742
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:751
 msgid ""
 "Let's show my father how I feel about him slaughtering my precious friend."
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:747
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:756
 msgid "Defeat Kragash Varg"
 msgstr ""
 
 #. [objectives]
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:770
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:779
 msgid ""
 "hint: except the arcane damage type, any attack types are not really "
 "effective to Kragash Varg."
 msgstr ""
 
-#. [message]: id=Eagi-Nyess_2
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:816
+#. [message]: id=Eagi-Nyess
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:825
 msgid ""
 "Good! This is one we have been looking for even though it will take a while "
 "to be healed perfectly. \n"
 "Orofarnië, I leave it for you on the island!"
 msgstr ""
 
+#. [regenerate]: id=recovery
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:915
+msgid ""
+"Recovery:\n"
+"                                        The unit will heal itself 4 HP per "
+"turn. If it is poisoned, it will remove the poison instead of healing."
+msgstr ""
+
 #. [message]: id=Orofarnie
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:866
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:926
 msgid "Yes! This is the most effective potion I have ever had."
 msgstr ""
 
 #. [object]: id=put_arcane
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:872
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:932
 msgid ""
 "This water will make Orifarnië's melee weapon have the 'arcane' damage type "
 "until the end of the campaign."
 msgstr ""
 
 #. [message]: id=Kragash Varg
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:895
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:955
 msgid ""
 "Now you are worthy to face me. It will be glorious to rip you and your "
 "mongrel friends to shreds....Bwahaha."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:1010
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1070
 msgid "You can recruit Fire Drakes."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:1021
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1081
 msgid "Aaaack... This should never happen!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:1047
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1107
 msgid ""
 "Noo, I cannot be vanquished by these pathetic cold-bloods, I am Kragash Varg!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/12_Legend_of_a_Dragon.cfg:1054
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1114
 msgid ""
 "I will never recognize you as my father. Back to hell with you and never "
 "come back again."
 msgstr ""
 
-#. [scenario]: id=12b_Epilogue
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:4
+#. [scenario]: id=15_Epilogue
+#: Brave_Wings/scenarios/15_Epilogue.cfg:4
 msgid "Epilogue"
 msgstr ""
 
 #. [part]
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:9
+#: Brave_Wings/scenarios/15_Epilogue.cfg:9
 msgid ""
 "Even though Kragash Varg's magic had been brought to the island by Yómi, the "
 "lich that had led the original attack, Wyngilla's sense of honor and bravery "
@@ -2772,7 +2980,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:12
+#: Brave_Wings/scenarios/15_Epilogue.cfg:12
 msgid ""
 "Drake life on Faith Island returned to those peaceful days before the undead "
 "attack, but with one difference... There was a Dragon on the island now, one "
@@ -2781,28 +2989,33 @@ msgid ""
 msgstr ""
 
 #. [side]: type=Naga Myrmidon, id=Grissileii
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:67
+#: Brave_Wings/scenarios/15_Epilogue.cfg:67
 msgid "Grissileii"
 msgstr ""
 
 #. [unit]: type=Armageddon Drake
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:139
+#: Brave_Wings/scenarios/15_Epilogue.cfg:136
 msgid "Verkin"
 msgstr ""
 
 #. [message]: id=Grissileii
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:207
+#: Brave_Wings/scenarios/15_Epilogue.cfg:204
 msgid "We will take over here."
 msgstr ""
 
-#. [message]: id=Eagi-Nyess_2
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:211
+#. [message]: id=Eagi-Nyess
+#: Brave_Wings/scenarios/15_Epilogue.cfg:208
 msgid "Gwahaha! We are happy to battle with you."
 msgstr ""
 
 #. [message]: id=Orofarnie
-#: Brave_Wings/scenarios/12b_Epilogue.cfg:215
+#: Brave_Wings/scenarios/15_Epilogue.cfg:212
 msgid "Yes! Much better than being zombies."
+msgstr ""
+
+#. [message]: id=Wyngilla
+#: Brave_Wings/scenarios/15_Epilogue.cfg:249
+msgid "<big><b>RooooAAAAARRRRRR!!!</b></big>"
 msgstr ""
 
 #. [unit_type]: id=Dwarvish Bandit Chief, race=dwarf
@@ -2909,7 +3122,7 @@ msgstr ""
 #: Brave_Wings/units/Bw_Glider.cfg:54 Brave_Wings/units/Bw_Sky.cfg:46
 #: Brave_Wings/units/Bw_Burner.cfg:50 Brave_Wings/units/Bw_Flameheart.cfg:138
 #: Brave_Wings/units/Drake_Brave.cfg:158 Brave_Wings/units/Bw_Fire.cfg:52
-#: Brave_Wings/units/Drake_Ranger.cfg:155
+#: Brave_Wings/units/Drake_Ranger.cfg:152
 #: Brave_Wings/units/Sword_Drake.cfg:144 Brave_Wings/units/Bw_Warrior.cfg:49
 #: Brave_Wings/units/Drake_Alchemist.cfg:177
 #: Brave_Wings/units/Drake_Lord.cfg:146 Brave_Wings/units/Bw_Fighter.cfg:47
@@ -2976,50 +3189,6 @@ msgid ""
 "held secrets of dwarven knowledge. It is said that where a loremaster "
 "stands, there is the soul of the dwarves. To the abilities of the Annalist "
 "they add a limited ability to heal."
-msgstr ""
-
-#. [unit_type]: id=Elder Wose Bw, race=wose
-#: Brave_Wings/units/Bw_Elder.cfg:4
-msgid "Elder Wose"
-msgstr ""
-
-#. [unit_type]: id=Elder Wose Bw, race=wose
-#: Brave_Wings/units/Bw_Elder.cfg:21
-msgid ""
-"Woses have been said to possess many shapes, all of them tree-like in form, "
-"and as they age, to increase in size. Tales tell of woses who resemble trees "
-"in this respect as well, towering over the creatures who walk beneath them. "
-"This is the greater part of why they are so rarely seen - standing in the "
-"slumber which they so often do, a wose of that stature appears to be nothing "
-"more than an oddly-shaped tree. Even a careless elf can sometimes be "
-"fooled.\n"
-"\n"
-"Woses are not warriors by any means, but their great strength can easily be "
-"turned to violence, should someone manage to raise the ire of these "
-"creatures."
-msgstr ""
-
-#. [regenerate]: id=recovery
-#: Brave_Wings/units/Monster.cfg:76 Brave_Wings/units/Bw_Elder.cfg:30
-msgid "recovery"
-msgstr ""
-
-#. [regenerate]: id=recovery
-#: Brave_Wings/units/Monster.cfg:77 Brave_Wings/units/Bw_Elder.cfg:31
-msgid "female^recovery"
-msgstr ""
-
-#. [regenerate]: id=recovery
-#: Brave_Wings/units/Monster.cfg:79 Brave_Wings/units/Bw_Elder.cfg:33
-msgid ""
-"Recovery:\n"
-"            The unit will heal itself 4 HP per turn. If it is poisoned, it "
-"will remove the poison instead of healing."
-msgstr ""
-
-#. [attack]: type=impact
-#: Brave_Wings/units/Bw_Elder.cfg:103
-msgid "crush"
 msgstr ""
 
 #. [unit_type]: id=Drake Fighter Bw, race=drake
@@ -3311,7 +3480,7 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=fire
-#: Brave_Wings/units/Drake_Ranger.cfg:146
+#: Brave_Wings/units/Drake_Ranger.cfg:143
 msgid "torch"
 msgstr ""
 
@@ -3423,6 +3592,14 @@ msgid ""
 "Mavron, is one of their descendants in Far North. He also have blood of Naga "
 "and local monsters. Although the hight is smaller than drakes, his firm skin "
 "protects him more than the armor of drakes."
+msgstr ""
+
+#. [regenerate]: id=recovery
+#: Brave_Wings/units/Monster.cfg:79
+msgid ""
+"Recovery:\n"
+"            The unit will heal itself 4 HP per turn. If it is poisoned, it "
+"will remove the poison instead of healing."
 msgstr ""
 
 #. [advancement]: id=bw_amla_mavron
