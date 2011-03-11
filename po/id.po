@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2011-02-27 17:34+0100\n"
+"POT-Creation-Date: 2011-03-11 18:42+0100\n"
 "PO-Revision-Date: 2010-02-06 15:34+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -151,14 +151,14 @@ msgid "Orofarnië"
 msgstr ""
 
 #. [regenerate]: id=recovery
-#: Brave_Wings/units/Monster.cfg:76
+#: Brave_Wings/units/Monster.cfg:88
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:53
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:912
 msgid "recovery"
 msgstr ""
 
 #. [regenerate]: id=recovery
-#: Brave_Wings/units/Monster.cfg:77
+#: Brave_Wings/units/Monster.cfg:89
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:54
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:913
 msgid "female^recovery"
@@ -328,7 +328,7 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: Brave_Wings/scenarios/01_Faith_Island.cfg:441
-#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1094
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1096
 #: Brave_Wings/scenarios/02_Unexpected_Visitor.cfg:550
 msgid "Aaaack... I am not going to talk to birds anymore."
 msgstr ""
@@ -809,8 +809,8 @@ msgstr ""
 #. [message]: speaker=unit
 #. [message]: id=unit
 #: Brave_Wings/scenarios/03_Naga_Land.cfg:603
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:184
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:209
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:204
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:229
 #: Brave_Wings/scenarios/13_Melphine's_Home_Seas.cfg:561
 #: Brave_Wings/scenarios/08_Hidden_Cave.cfg:973
 msgid "Aaaargh..."
@@ -1279,68 +1279,68 @@ msgid "Orcish Scouts"
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:131
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:151
 msgid "Oh, no! What's this? Someone has broken into the laboratory!"
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:135
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:155
 msgid ""
 "Those dwarves look like bandits. We have to find Montas! And look! There are "
 "orcish scouts, too."
 msgstr ""
 
 #. [message]: id=Pelalis
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:139
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:159
 msgid "Look! The Western Union! To arms!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:148
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:168
 msgid ""
 "Defeat the leader of Dwarvish Bandits, then move Dultas to the entrance of "
 "the laboratory"
 msgstr ""
 
 #. [objectives]
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:152
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:172
 msgid "extra bonus by defeating the orc leader"
 msgstr ""
 
 #. [message]: id=Dultas
 #: Brave_Wings/scenarios/10_Thunderthrow.cfg:763
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:188
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:208
 msgid "Go to hell!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:193
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:213
 msgid "Move Dultas to the entrance of the hidden laboratory"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:213
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:233
 #: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:262
 msgid "You gain a bonus of 100 gold!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:231
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:251
 msgid "Aaaargh... I wanted to see humans living in... far north..."
 msgstr ""
 
 #. [message]: id=Dultas
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:262
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:282
 msgid "Drakes! This way! I am very worried about Montas."
 msgstr ""
 
 #. [message]: id=Tyngel
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:266
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:286
 msgid "I also worry about Thunderthrow."
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:270
+#: Brave_Wings/scenarios/07_Dwarvish_Bandits.cfg:290
 #: Brave_Wings/scenarios/09_Bandit's_Connection.cfg:185
 msgid "....."
 msgstr ""
@@ -2871,7 +2871,7 @@ msgstr ""
 
 #. [message]: id=Wyngilla
 #: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:681
-msgid "UOOOOOOOHHH...!"
+msgid "<big><b>UOOOOOOOHHH...!!</b></big>"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -2934,30 +2934,30 @@ msgid ""
 msgstr ""
 
 #. [message]: id=Kragash Varg
-#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:955
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:957
 msgid ""
 "Now you are worthy to face me. It will be glorious to rip you and your "
 "mongrel friends to shreds....Bwahaha."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1070
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1072
 msgid "You can recruit Fire Drakes."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1081
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1083
 msgid "Aaaack... This should never happen!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1107
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1109
 msgid ""
 "Noo, I cannot be vanquished by these pathetic cold-bloods, I am Kragash Varg!"
 msgstr ""
 
 #. [message]: id=Wyngilla
-#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1114
+#: Brave_Wings/scenarios/14_Legend_of_a_Dragon.cfg:1116
 msgid ""
 "I will never recognize you as my father. Back to hell with you and never "
 "come back again."
@@ -3588,12 +3588,12 @@ msgstr ""
 msgid ""
 "In long time ago, some drakes left their home to find own place. A monster, "
 "Mavron, is one of their descendants in Far North. He also have blood of Naga "
-"and local monsters. Although the hight is smaller than drakes, his firm skin "
+"and local monsters. Although his size is smaller than drakes, his firm skin "
 "protects him more than the armor of drakes."
 msgstr ""
 
 #. [regenerate]: id=recovery
-#: Brave_Wings/units/Monster.cfg:79
+#: Brave_Wings/units/Monster.cfg:91
 msgid ""
 "Recovery:\n"
 "            The unit will heal itself 4 HP per turn. If it is poisoned, it "
@@ -3601,17 +3601,17 @@ msgid ""
 msgstr ""
 
 #. [advancement]: id=bw_amla_mavron
-#: Brave_Wings/units/Monster.cfg:88
+#: Brave_Wings/units/Monster.cfg:100
 msgid "atomic breath (+2 damage to atomic breath, no heal full)"
 msgstr ""
 
 #. [attack]: type=impact
-#: Brave_Wings/units/Monster.cfg:98
+#: Brave_Wings/units/Monster.cfg:110
 msgid "fist"
 msgstr ""
 
 #. [attack]: type=fire
-#: Brave_Wings/units/Monster.cfg:107
+#: Brave_Wings/units/Monster.cfg:119
 msgid "atomic breath"
 msgstr ""
 
